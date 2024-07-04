@@ -331,22 +331,3 @@ body{
 	}
 }
 /* ========== RESPONSIVE ========== */
-
-/* Centraliza verticalmente a div de login */
-.min-vh-100 {
-    min-height: 100vh;
-}
-
-.login-container {
-    max-width: 100%; /* Garante que a largura máxima não exceda a largura do col-md-6 */
-}
-
-.login-container form {
-    width: 100%; /* Garante que o formulário ocupe toda a largura do contêiner */
-}
-
-
-.login-container {
-	max-width: 400px;
-	margin-top: 50px;
-}
