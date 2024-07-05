@@ -80,7 +80,9 @@
 					<h2 class="section-heading">
 							Login
 						</h2>
-					<form action="#" class="form-contact" id="contactForm" data-toggle="validator" novalidate="true">
+					<!-- <form action="#" class="form-contact" id="contactForm" data-toggle="validator" novalidate="true"> -->
+					<form action="login.php" class="form-contact" id="contactForm" method="post" data-toggle="validator" novalidate="true">
+
 						<div class="form-group">
 							<input type="email" class="form-control" id="p_email" placeholder="Digite o seu e-mail" required="">
 							<div class="help-block with-errors"></div>
