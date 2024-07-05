@@ -1,27 +1,28 @@
 <?php
-// Incluir o arquivo wp-load.php para ter acesso às funcionalidades do WordPress
-require_once('wp-load.php');
+// Inclua o arquivo wp-load.php para ter acesso às funções do WordPress
+require_once($_SERVER['DOCUMENT_ROOT'] . '/wp-load.php');
 
-// Verificar se o formulário de login foi submetido
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    // Obter o email e senha do formulário
-    $email = $_POST['p_email'];
-    $password = $_POST['p_password'];
+if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+    $creds = array(
+        'user_login'    => $_POST['p_email'],
+        'user_password' => $_POST['p_password'],
+        'remember'      => true
+    );
 
-    // Tentar autenticar o usuário
-    $user = wp_authenticate($email, $password);
+    // Tenta fazer o login
+    $user = wp_signon($creds, false);
 
     if (is_wp_error($user)) {
-        // Se houver erro na autenticação (credenciais inválidas, etc.)
-        echo '<p>Erro: ' . $user->get_error_message() . '</p>';
+        // Captura a mensagem de erro
+        $error_message = $user->get_error_message();
+        // Codifica a mensagem de erro para incluir na URL
+        $error_message = urlencode($error_message);
+        // Se houver um erro, redireciona de volta para a página de login com uma mensagem de erro
+        wp_redirect('https://tigeruniversalcoaching.com/page-login.php?login=failed&error=' . $error_message);
+        exit;
     } else {
-        // Se a autenticação for bem sucedida
-        wp_set_current_user($user->ID, $user->user_login);
-        wp_set_auth_cookie($user->ID);
-
-        // Redirecionar para a página /portal
-        wp_redirect('/portal');
+        // Se o login for bem-sucedido, redireciona para a página desejada
+        wp_redirect('https://tigeruniversalcoaching.com/portaldoaluno');
         exit;
     }
 }
-?>

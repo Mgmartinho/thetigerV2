@@ -1,5 +1,53 @@
 <?php
 get_header();
+
+
+// Inclua o arquivo wp-load.php para ter acesso às funções do WordPress
+require_once($_SERVER['DOCUMENT_ROOT'] . '/wp-load.php');
+
+
+if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+	$creds = array(
+		'user_login'    => $_POST['p_email'],
+		'user_password' => $_POST['p_password'],
+		'remember'      => true
+	);
+
+	// Tenta fazer o login
+	$user = wp_signon($creds, false);
+
+	if (is_wp_error($user)) {
+		// Captura a mensagem de erro
+		$error_message = $user->get_error_message();
+		// Codifica a mensagem de erro para incluir na URL
+		$error_message = urlencode($error_message);
+		// Se houver um erro, redireciona de volta para a página de login com uma mensagem de erro
+		wp_redirect('https://tigeruniversalcoaching.com/page-login.php?login=failed&error=' . $error_message);
+		exit;
+	} else {
+
+		// Verifica se o usuário está logado
+		if (is_user_logged_in()) {
+			// Obtém o usuário atual
+			$current_user = wp_get_current_user();
+			// Obtém o nome de usuário
+			$username = $current_user->user_login;
+			$display_name = $current_user->display_name;
+
+			// Exibe o nome de usuário
+			// $name = "$username";
+		} else {
+			echo "Nenhum usuário está logado.";
+			wp_redirect('https://tigeruniversalcoaching.com/');
+		}
+
+		// Se o login for bem-sucedido, redireciona para a página desejada
+		// wp_redirect('https://tigeruniversalcoaching.com/portaldoaluno');
+		// exit;
+	}
+}
+
+
 ?>
 
 <!-- LOAD PAGE -->
@@ -16,16 +64,8 @@ get_header();
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-12 col-md-12">
-				<div class="title-page">SEJA BEM VINDO AO PORTAL DO ALUNO</div>
+				<div class="title-page">Olá <?php echo $display_name; ?> Seja Bem Vindo </div>
 			</div>
-		</div>
-	</div>
-	<div class="breadcrumb-container">
-		<div class="container">
-			<ol class="breadcrumb">
-				<li><a href="/">HOME</a></li>
-				<li class="active">PORTAL DO ALUNO</li>
-			</ol>
 		</div>
 	</div>
 </div>
@@ -36,7 +76,7 @@ get_header();
 		<div class="row">
 			<div class="col-sm-12 col-md-12">
 				<h2 class="section-heading">
-					VOCÊ TERÁ ACESSO
+				Ferramentas Portal do Aluno 
 				</h2>
 			</div>
 			<div class="col-sm-12 col-md-12">
@@ -52,7 +92,7 @@ get_header();
 								<i class="fa fa-circle-o"></i>
 								<p>
 									<br>
-									<a href="/cursos">MAIS INFORMAÇÕES</a>
+									<a href="/cursos">Aguardando Liberação do Mentor</a>
 								</p>
 							</div>
 						</div>
@@ -68,14 +108,14 @@ get_header();
 							<div class="body-content">
 								<i class="fa fa-circle-o"></i>
 								<p><br>
-									<a href="/cursos">MAIS INFORMAÇÕES</a>
+									<a href="/cursos">Aguardando Liberação do Mentor</a>
 								</p>
 							</div>
 						</div>
 						<div class="spacer-30"></div>
 					</div>
 					<!-- Item 3 -->
-					<div class="col-sm-3 col-md-3">
+					<!-- <div class="col-sm-3 col-md-3">
 						<div class="box-icon-3">
 							<div class="icon">
 								<div class="fa fa-heart fa-2x"></div>
@@ -89,7 +129,7 @@ get_header();
 							</div>
 						</div>
 						<div class="spacer-30"></div>
-					</div>
+					</div> -->
 					<!-- Item 4 -->
 					<div class="col-sm-3 col-md-3">
 						<div class="box-icon-3">
@@ -100,7 +140,7 @@ get_header();
 							<div class="body-content">
 								<i class="fa fa-circle-o"></i>
 								<p><br>
-									<a href="/cursos">MAIS INFORMAÇÕES</a>
+									<a href="https://tigeruniversalcoaching.com.linkupcommunity.com/wp-content/themes/MAINFILE/HTML/images/ebook_tiger.pdf" target="_blank">E-book Tiger</a>
 								</p>
 							</div>
 						</div>
@@ -108,14 +148,14 @@ get_header();
 					</div>
 
 				</div>
-				<div class="row">
+				<!-- <div class="row">
 					<div class="col-sm-12 col-md-12">
 						<div class="spacer-50"></div>
 						<div class="text-center">
 							<a href="/login" class="btn btn-primary" title="LEARN MORE">PORTAL DO ALUNO</a>
 						</div>
 					</div>
-				</div>
+				</div> -->
 			</div>
 
 		</div>
@@ -134,8 +174,7 @@ get_header();
 						<!-- BOX 1 -->
 						<div class="feature-box-8">
 							<div class="media">
-								<img src="<?php echo get_template_directory_uri(); ?>/images/lifecoach.png" alt="rud"
-									class="img-responsive">
+								<img src="<?php echo get_template_directory_uri(); ?>/images/lifecoach.png" alt="rud" class="img-responsive">
 							</div>
 							<div class="body">
 								<a href="/courses-single-1" class="title">Life Coach</a>
@@ -150,8 +189,7 @@ get_header();
 						<!-- BOX 2 -->
 						<div class="feature-box-8">
 							<div class="media">
-								<img src="<?php echo get_template_directory_uri(); ?>/images/masterlifecoach.png"
-									alt="rud" class="img-responsive">
+								<img src="<?php echo get_template_directory_uri(); ?>/images/masterlifecoach.png" alt="rud" class="img-responsive">
 							</div>
 							<div class="body">
 								<a href="/courses-single-2" class="title">Master Life Coaching</a>
@@ -166,8 +204,7 @@ get_header();
 						<!-- BOX 3 -->
 						<div class="feature-box-8">
 							<div class="media">
-								<img src="<?php echo get_template_directory_uri(); ?>/images/coachingrelacionamento.png"
-									alt="rud" class="img-responsive">
+								<img src="<?php echo get_template_directory_uri(); ?>/images/coachingrelacionamento.png" alt="rud" class="img-responsive">
 							</div>
 							<div class="body">
 								<a href="/courses-single-3" class="title">Coaching Relacionamento</a>
@@ -182,8 +219,7 @@ get_header();
 						<!-- BOX 4 -->
 						<div class="feature-box-8">
 							<div class="media">
-								<img src="<?php echo get_template_directory_uri(); ?>/images/mastercoachingrelacionamento.png"
-									alt="rud" class="img-responsive">
+								<img src="<?php echo get_template_directory_uri(); ?>/images/mastercoachingrelacionamento.png" alt="rud" class="img-responsive">
 							</div>
 							<div class="body">
 								<a href="/courses-single-4" class="title">Master Coaching Relacionamento</a>
@@ -194,126 +230,12 @@ get_header();
 							</div>
 						</div>
 					</div>
-					<!-- <div class="col-sm-3 col-md-3">
-							
-							<div class="feature-box-8">
-								<div class="media">
-									<img src="<?php echo get_template_directory_uri(); ?>/images/600x350.jpg" alt="rud" class="img-responsive">
-								</div>
-								<div class="body">
-									<a href="services-detail.html" class="title">Speaker</a>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed</p>
-									<a href="services-detail.html">Comprar Agora</a>
-								</div>
-							</div>
-						</div>
-						<div class="col-sm-3 col-md-3">
-							
-							<div class="feature-box-8">
-								<div class="media">
-									<img src="<?php echo get_template_directory_uri(); ?>/images/600x350.jpg" alt="rud" class="img-responsive">
-								</div>
-								<div class="body">
-									<a href="services-detail.html" class="title">Transition Coaching</a>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed</p>
-									<a href="services-detail.html">Comprar Agora</a>
-								</div>
-							</div>
-						</div>
-						<div class="col-sm-3 col-md-3">
-							
-							<div class="feature-box-8">
-								<div class="media">
-									<img src="<?php echo get_template_directory_uri(); ?>/images/600x350.jpg" alt="rud" class="img-responsive">
-								</div>
-								<div class="body">
-									<a href="services-detail.html" class="title">Health Coaching</a>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed</p>
-									<a href="services-detail.html">Comprar Agora</a>
-								</div>
-							</div>
-						</div>
-						<div class="col-sm-3 col-md-3">
-							
-							<div class="feature-box-8">
-								<div class="media">
-									<img src="<?php echo get_template_directory_uri(); ?>/images/600x350.jpg" alt="rud" class="img-responsive">
-								</div>
-								<div class="body">
-									<a href="services-detail.html" class="title">Corporate Coaching</a>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed</p>
-									<a href="services-detail.html">Comprar Agora</a>
-								</div>
-							</div>
-						</div> -->
 				</div>
 			</div>
 
 		</div>
 	</div>
 </div>
-<!-- FECHAMENTO DE CURSOS -->
-<!-- APPOINTMENT -->
-<div class="section bg-overlay-3">
-	<div class="container">
-
-		<div class="row">
-			<div class="col-sm-12 col-md-12">
-				<div class="wrap-book">
-					<div class="row">
-						<div class="col-sm-5 col-md-5">
-							<div class="bg-appointment">
-								<img src="<?php echo get_template_directory_uri(); ?>/images/logo1.png"
-									style="height:800px ; width:600px ;" alt="">
-							</div>
-						</div>
-						<div class="col-sm-7 col-md-7">
-							<div class="wrap-form">
-								<h2 class="section-heading">
-									CONTATO
-								</h2>
-								<h2 class="reset-section-heading">TIRE SUAS DUVIDAS CONOSCO</h2>
-								<form action="#" class="form-appointment" id="contactForm" data-toggle="validator"
-									novalidate="true">
-									<div class="row">
-										<div class="col-sm-6 col-md-6">
-											<div class="form-group">
-												<input type="text" class="form-control" id="p_name"
-													placeholder="Nome Completo..." required="">
-												<div class="help-block with-errors"></div>
-											</div>
-										</div>
-										<div class="col-sm-6 col-md-6">
-											<div class="form-group">
-												<input type="email" class="form-control" id="p_email"
-													placeholder="Email..." required="">
-												<div class="help-block with-errors"></div>
-											</div>
-										</div>
-									</div>
-									<div class="form-group">
-										<input type="text" class="form-control" id="p_subject" placeholder="Assunto...">
-										<div class="help-block with-errors"></div>
-									</div>
-									<div class="form-group">
-										<textarea id="p_message" class="form-control" rows="6"
-											placeholder=" menssagem"></textarea>
-										<div class="help-block with-errors"></div>
-									</div>
-									<div class="form-group">
-										<div id="success"></div>
-										<button type="submit" class="btn btn-primary">Enviar Mensagem</button>
-									</div>
-								</form>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-
 <?php
 get_footer();
 ?>

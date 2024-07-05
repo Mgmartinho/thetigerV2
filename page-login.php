@@ -81,14 +81,14 @@
 							Login
 						</h2>
 					<!-- <form action="#" class="form-contact" id="contactForm" data-toggle="validator" novalidate="true"> -->
-					<form action="portallogin.php" class="form-contact" id="loginportal" method="post" data-toggle="validator" novalidate="true">
+					<form action="https://tigeruniversalcoaching.com/portaldoaluno" class="form-contact" id="loginportal" method="post" data-toggle="validator" novalidate="true">
 
 						<div class="form-group">
-							<input type="email" class="form-control" id="p_email" placeholder="Digite o seu e-mail" required="">
+							<input type="email" class="form-control" id="p_email" name="p_email"  placeholder="Digite o seu e-mail" required="">
 							<div class="help-block with-errors"></div>
 						</div>
 						<div class="form-group">
-							<input type="password" class="form-control" id="p_password" placeholder="Digite a sua senha" required="">
+							<input type="password" class="form-control" id="p_password" name="p_password" placeholder="Digite a sua senha" required="">
 							<div class="help-block with-errors"></div>
 						</div>
 						<div class="form-group">
