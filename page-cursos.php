@@ -178,6 +178,7 @@ get_header();
 						<div class="col-sm-5 col-md-5">
 							<div class="wrap-form">
 								<h2 class="reset-section-heading" style="margin-top: 20px;">TIRE SUAS DUVIDAS CONOSCO</h2>
+								<?php echo do_shortcode('[contact-form-7 id="a1a10a8" title="FORMULARIO DE CONTATO"]'); ?>
 								<form action="#" class="form-appointment" id="contactForm" data-toggle="validator"
 									novalidate="true">
 									<div class="row">
