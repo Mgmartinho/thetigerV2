@@ -3,7 +3,8 @@
 <div id="slides" class="section banner">
 	<ul class="slides-container">
 		<li>
-			<img src="https://editalconcursosbrasil.com.br/wp-content/uploads/2022/12/pessoas-felizes-scaled.jpg" alt=""><!-- IMAGEM BANNER 1 -->
+			<img src="https://editalconcursosbrasil.com.br/wp-content/uploads/2022/12/pessoas-felizes-scaled.jpg"
+				alt=""><!-- IMAGEM BANNER 1 -->
 			<div class="overlay-bg"></div>
 			<div class="container">
 				<div class="wrap-caption" style="box-shadow:">
@@ -17,7 +18,8 @@
 			</div>
 		</li>
 		<li>
-			<img src="https://fscl01.fonpit.de/userfiles/7687254/image/iPad_Pro_2021/NextPit_Apple_iPad_Pro_2021_Fabi_test-w1400h788.jpg" alt=""><!-- IMAGEM BANNER 2 -->
+			<img src="https://fscl01.fonpit.de/userfiles/7687254/image/iPad_Pro_2021/NextPit_Apple_iPad_Pro_2021_Fabi_test-w1400h788.jpg"
+				alt=""><!-- IMAGEM BANNER 2 -->
 			<div class="overlay-bg"></div>
 			<div class="container">
 				<div class="wrap-caption right">
@@ -31,7 +33,8 @@
 			</div>
 		</li>
 		<li>
-			<img src="https://www.dmoose.com/cdn/shop/articles/feature-image_72dff46a-1912-4909-ad84-bf7b5a9b9d76.jpg?v=1676305878" alt=""><!-- IMAGEM BANNER 3 -->
+			<img src="https://www.dmoose.com/cdn/shop/articles/feature-image_72dff46a-1912-4909-ad84-bf7b5a9b9d76.jpg?v=1676305878"
+				alt=""><!-- IMAGEM BANNER 3 -->
 			<div class="overlay-bg"></div>
 			<div class="container">
 				<div class="wrap-caption center">
@@ -314,14 +317,12 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-12 col-md-12">
-				<h2 class="section-heading">
-					VOCÊ TERÁ ACESSO
-				</h2>
+				<h2 class="section-heading">VOCÊ TERÁ ACESSO</h2>
 			</div>
 			<div class="col-sm-12 col-md-12">
-				<div class="row tes">
+				<div class="row tes align-items-center">
 					<!-- Item 1 -->
-					<div class="col-sm-3 col-md-3">
+					<div class="col-sm-6 col-md-4 col-lg-3">
 						<div class="box-icon-3">
 							<div class="icon">
 								<div class="fa fa-leaf fa-2x"></div>
@@ -330,6 +331,7 @@
 							<div class="body-content">
 								<i class="fa fa-circle-o"></i>
 								<p>
+									Ao concluir os cursos, seu certificado ficará disponível para download.
 									<br>
 									<a href="/cursos">MAIS INFORMAÇÕES</a>
 								</p>
@@ -338,15 +340,17 @@
 						<div class="spacer-30"></div>
 					</div>
 					<!-- Item 2 -->
-					<div class="col-sm-3 col-md-3">
+					<div class="col-sm-6 col-md-4 col-lg-3">
 						<div class="box-icon-3">
 							<div class="icon">
 								<div class="fa fa-graduation-cap fa-2x"></div>
 							</div>
-							<h5 class="heading"><a href="/cursos">GRUPO DE ESTUDOS </a></h5>
+							<h5 class="heading"><a href="/cursos">GRUPO DE ESTUDOS</a></h5>
 							<div class="body-content">
 								<i class="fa fa-circle-o"></i>
-								<p><br>
+								<p>
+									(Facebook, WhatsApp Fechado)
+									<br>
 									<a href="/cursos">MAIS INFORMAÇÕES</a>
 								</p>
 							</div>
@@ -354,15 +358,17 @@
 						<div class="spacer-30"></div>
 					</div>
 					<!-- Item 3 -->
-					<div class="col-sm-3 col-md-3">
+					<div class="col-sm-6 col-md-4 col-lg-3">
 						<div class="box-icon-3">
 							<div class="icon">
 								<div class="fa fa-heart fa-2x"></div>
 							</div>
-							<h5 class="heading"><a href="/cursos">PORTAL DO ALUNO </a></h5>
+							<h5 class="heading"><a href="/cursos">PORTAL DO COACHEE</a></h5>
 							<div class="body-content">
 								<i class="fa fa-circle-o"></i>
-								<p><br>
+								<p>
+									Acesso a uma área exclusiva contendo seus conteúdos, downloads e certificados.
+									<br>
 									<a href="/cursos">MAIS INFORMAÇÕES</a>
 								</p>
 							</div>
@@ -370,15 +376,17 @@
 						<div class="spacer-30"></div>
 					</div>
 					<!-- Item 4 -->
-					<div class="col-sm-3 col-md-3">
+					<div class="col-sm-6 col-md-4 col-lg-3">
 						<div class="box-icon-3">
 							<div class="icon">
 								<div class="fa fa-group fa-2x"></div>
 							</div>
-							<h5 class="heading"><a href="/cursos">EBOOK'S GRATUITOS </a></h5>
+							<h5 class="heading"><a href="/cursos">EBOOKS</a></h5>
 							<div class="body-content">
 								<i class="fa fa-circle-o"></i>
-								<p><br>
+								<p>
+									Materiais em PDF que podem ser baixados ao decorrer do curso.
+									<br>
 									<a href="/cursos">MAIS INFORMAÇÕES</a>
 								</p>
 							</div>
@@ -386,207 +394,256 @@
 						<div class="spacer-30"></div>
 					</div>
 
-				</div>
-				<div class="row">
-					<div class="col-sm-12 col-md-12">
-						<div class="spacer-50"></div>
-						<div class="text-center">
-							<a href="/login" class="btn btn-primary" title="LEARN MORE">PORTAL DO ALUNO</a>
+					<!-- Item 5 -->
+					<div class="col-sm-6 col-md-4 col-lg-3">
+						<div class="box-icon-3">
+							<div class="icon">
+								<div class="fa fa-leaf fa-2x"></div>
+							</div>
+							<h5 class="heading"><a href="/cursos">SUPORTE PERSONALIZADO</a></h5>
+							<div class="body-content">
+								<i class="fa fa-circle-o"></i>
+								<p>
+									Atendimento individualizado por WhatsApp com Coach para tirar dúvidas.
+									<br>
+									<a href="/cursos">MAIS INFORMAÇÕES</a>
+								</p>
+							</div>
+						</div>
+						<div class="spacer-30"></div>
+					</div>
+					<!-- Item 6 -->
+					<div class="col-sm-6 col-md-4 col-lg-3">
+						<div class="box-icon-3">
+							<div class="icon">
+								<div class="fa fa-graduation-cap fa-2x"></div>
+							</div>
+							<h5 class="heading"><a href="/cursos">ATIVIDADES PRÁTICAS</a></h5>
+							<div class="body-content">
+								<i class="fa fa-circle-o"></i>
+								<p>
+									Exercícios exclusivos e atividades práticas sobre o que aprenderá no curso.
+									<br>
+									<a href="/cursos">MAIS INFORMAÇÕES</a>
+								</p>
+							</div>
+						</div>
+						<div class="spacer-30"></div>
+					</div>
+
+					<!-- FIM PRIMEIRA LINHA -->
+					<div class="row">
+						<div class="col-sm-12 col-md-12">
+							<div class="spacer-50"></div>
+							<div class="text-center">
+								<a href="/login" class="btn btn-primary" title="LEARN MORE">PORTAL DO ALUNO</a>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-
 		</div>
 	</div>
-</div>
 
-<!-- DOWNLOAD EBOOK -->
-<div class="section bg-overlay-3">
-	<div class="container">
-		<div class="row">
-			<div class="col-sm-12 col-md-12">
-				<div class="wrap-book">
+
+	<!-- DOWNLOAD EBOOK -->
+	<div class="section bg-overlay-3">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12 col-md-12">
+					<div class="wrap-book">
+						<div class="row">
+							<div class="col-sm-5 col-md-5">
+								<div class="bg-appointment">
+									<img src="<?php echo get_template_directory_uri(); ?>/images/capaEbook.png" alt="">
+								</div>
+							</div>
+							<div class="col-sm-7 col-md-7">
+								<div class="wrap-form">
+									<h2 class="section-heading">Ebook</h2>
+									<h2 class="reset-section-heading">Faça o Dowload do Seu Ebook</h2>
+									<form action="#" class="form-appointment" id="download-form" data-toggle="validator"
+										novalidate="true">
+										<div class="row">
+											<!-- Nome Completo e Telefone na mesma linha -->
+											<div class="col-sm-6 col-md-6">
+												<div class="form-group">
+													<input type="text" class="form-control" id="p_name" name="name"
+														placeholder="Nome Completo" required>
+													<div class="help-block with-errors"></div>
+												</div>
+											</div>
+											<div class="col-sm-6 col-md-6">
+												<div class="form-group">
+													<input type="phone" class="form-control" id="p_phone" name="phone"
+														placeholder="Telefone" required>
+													<div class="help-block with-errors"></div>
+												</div>
+											</div>
+										</div>
+										<!-- Email em linha separada -->
+										<div class="row">
+											<div class="col-sm-12 col-md-12">
+												<div class="form-group">
+													<input type="email" class="form-control" id="p_email" name="email"
+														placeholder="Email" required>
+													<div class="help-block with-errors"></div>
+												</div>
+											</div>
+										</div>
+										<div class="form-group">
+											<div id="success"></div>
+											<button type="submit" class="btn btn-primary">BAIXAR EBOOK!</button>
+										</div>
+									</form>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<!-- STORIES -->
+	<div class="section bg-light">
+		<div class="container">
+			<div id="owl-testimony">
+
+				<div class="item">
 					<div class="row">
 						<div class="col-sm-5 col-md-5">
-							<div class="bg-appointment">
-								<img src="<?php echo get_template_directory_uri(); ?>/images/capaEbook.png" alt="">
-							</div>
+							<h2 class="section-heading">
+								HISTÓRIAS DE SUCESSOS
+							</h2>
+							<h2 class="reset-section-heading">NICOLAS CARVALHO</h2>
+							<p>Participei do Curso LIFE COACH</p>
+							<p>"o curso de coaching foi transformador. A equipe
+								experiente e comprometida utilizou uma abordagem colaborativa e personalizada para
+								melhorar minhas habilidades de comunicação e autoconfiança. Recomendo a todos que
+								buscam crescimento pessoal e profissional." </p>
+							<div class="spacer-30"></div>
+							<a class="btn btn-primary">READ MORE STORIES</a>
+							<div class="spacer-30"></div>
 						</div>
 						<div class="col-sm-7 col-md-7">
-							<div class="wrap-form">
-								<h2 class="section-heading">Ebook</h2>
-								<h2 class="reset-section-heading">Faça o Dowload do Seu Ebook</h2>
-								<form action="#" class="form-appointment" id="download-form" data-toggle="validator"
-									novalidate="true">
-									<div class="row">
-										<div class="col-sm-12 col-md-6">
-											<div class="form-group">
-												<input type="text" class="form-control" id="p_name" name="name"
-													placeholder="Nome Completo" required>
-												<div class="help-block with-errors"></div>
-											</div>
-										</div>
-										<div class="col-sm-6 col-md-6">
-											<div class="form-group">
-												<input type="email" class="form-control" id="p_email" name="email"
-													placeholder="Email" required>
-												<div class="help-block with-errors"></div>
-											</div>
-										</div>
-									</div>
-									<div class="form-group">
-										<div id="success"></div>
-										<button type="submit" class="btn btn-primary">BAIXAR EBOOK!</button>
-									</div>
-								</form>
+							<div class="about-img">
+								<div class="about-img-top"><!-- BANER ESQUERDO PESSOA -->
+									<img src="<?php echo get_template_directory_uri(); ?>/images/nicolasComentario.png"
+										alt="" style=" height:200px; width:auto" class="">
+								</div>
+								<div class="about-img-bottom"><!-- BANER DIREITO PRINCIPLA -->
+									<img src="<?php echo get_template_directory_uri(); ?>/images/baner1.jpeg" alt=""
+										class="img-responsive">
+								</div>
 							</div>
 						</div>
+						<div class="clearfix"></div>
+						<div class="spacer-70"></div>
 					</div>
 				</div>
-			</div>
-		</div>
-	</div>
-</div>
+				<div class="item">
+					<div class="row">
+						<div class="col-sm-5 col-md-5">
+							<h2 class="section-heading">
+								HISTÓRIAS DE SUCESSOS
+							</h2>
+							<h2 class="reset-section-heading">NICOLAS CARVALHO</h2>
+							<p>Participei do Curso LIFE COACH</p>
+							<p>"o curso de coaching foi transformador. A equipe
+								experiente e comprometida utilizou uma abordagem colaborativa e personalizada para
+								melhorar minhas habilidades de comunicação e autoconfiança. Recomendo a todos que
+								buscam crescimento pessoal e profissional." </p>
+							<div class="spacer-30"></div>
+							<a class="btn btn-primary">READ MORE STORIES</a>
+							<div class="spacer-30"></div>
+						</div>
+						<div class="col-sm-7 col-md-7">
+							<div class="about-img">
+								<div class="about-img-top"><!-- BANER ESQUERDO PESSOA -->
+									<img src="<?php echo get_template_directory_uri(); ?>/images/nicolasComentario.png"
+										alt="" style=" height:200px; width:auto" class="">
+								</div>
+								<div class="about-img-bottom"><!-- BANER DIREITO PRINCIPLA -->
+									<img src="<?php echo get_template_directory_uri(); ?>/images/baner1.jpeg" alt=""
+										class="img-responsive">
+								</div>
+							</div>
+						</div>
+						<div class="clearfix"></div>
+						<div class="spacer-70"></div>
+					</div>
+				</div>
+				<div class="item">
+					<div class="row">
+						<div class="col-sm-5 col-md-5">
+							<h2 class="section-heading">
+								HISTÓRIAS DE SUCESSOS
+							</h2>
+							<h2 class="reset-section-heading">NICOLAS CARVALHO</h2>
+							<p>Participei do Curso LIFE COACH</p>
+							<p>"o curso de coaching foi transformador. A equipe
+								experiente e comprometida utilizou uma abordagem colaborativa e personalizada para
+								melhorar minhas habilidades de comunicação e autoconfiança. Recomendo a todos que
+								buscam crescimento pessoal e profissional." </p>
+							<div class="spacer-30"></div>
+							<a class="btn btn-primary">LEIA MAIS</a>
+							<div class="spacer-30"></div>
+						</div>
+						<div class="col-sm-7 col-md-7">
+							<div class="about-img">
+								<div class="about-img-top"><!-- BANER ESQUERDO PESSOA -->
+									<img src="<?php echo get_template_directory_uri(); ?>/images/nicolasComentario.png"
+										alt="" style=" height:200px; width:auto" class="">
+								</div>
+								<div class="about-img-bottom"><!-- BANER DIREITO PRINCIPLA -->
+									<img src="<?php echo get_template_directory_uri(); ?>/images/baner1.jpeg" alt=""
+										class="img-responsive">
+								</div>
+							</div>
+						</div>
+						<div class="clearfix"></div>
+						<div class="spacer-70"></div>
+					</div>
+				</div>
 
-
-<!-- STORIES -->
-<div class="section bg-light">
-	<div class="container">
-		<div id="owl-testimony">
-
-			<div class="item">
-				<div class="row">
-					<div class="col-sm-5 col-md-5">
-						<h2 class="section-heading">
-							HISTÓRIAS DE SUCESSOS
-						</h2>
-						<h2 class="reset-section-heading">NICOLAS CARVALHO</h2>
-						<p>Participei do Curso LIFE COACH</p>
-						<p>"o curso de coaching foi transformador. A equipe
-							experiente e comprometida utilizou uma abordagem colaborativa e personalizada para
-							melhorar minhas habilidades de comunicação e autoconfiança. Recomendo a todos que
-							buscam crescimento pessoal e profissional." </p>
-						<div class="spacer-30"></div>
-						<a class="btn btn-primary">READ MORE STORIES</a>
-						<div class="spacer-30"></div>
-					</div>
-					<div class="col-sm-7 col-md-7">
-						<div class="about-img">
-							<div class="about-img-top"><!-- BANER ESQUERDO PESSOA -->
-								<img src="<?php echo get_template_directory_uri(); ?>/images/nicolasComentario.png"
-									alt="" style=" height:200px; width:auto" class="">
-							</div>
-							<div class="about-img-bottom"><!-- BANER DIREITO PRINCIPLA -->
-								<img src="<?php echo get_template_directory_uri(); ?>/images/baner1.jpeg" alt=""
-									class="img-responsive">
-							</div>
-						</div>
-					</div>
-					<div class="clearfix"></div>
-					<div class="spacer-70"></div>
-				</div>
-			</div>
-			<div class="item">
-				<div class="row">
-					<div class="col-sm-5 col-md-5">
-						<h2 class="section-heading">
-							HISTÓRIAS DE SUCESSOS
-						</h2>
-						<h2 class="reset-section-heading">NICOLAS CARVALHO</h2>
-						<p>Participei do Curso LIFE COACH</p>
-						<p>"o curso de coaching foi transformador. A equipe
-							experiente e comprometida utilizou uma abordagem colaborativa e personalizada para
-							melhorar minhas habilidades de comunicação e autoconfiança. Recomendo a todos que
-							buscam crescimento pessoal e profissional." </p>
-						<div class="spacer-30"></div>
-						<a class="btn btn-primary">READ MORE STORIES</a>
-						<div class="spacer-30"></div>
-					</div>
-					<div class="col-sm-7 col-md-7">
-						<div class="about-img">
-							<div class="about-img-top"><!-- BANER ESQUERDO PESSOA -->
-								<img src="<?php echo get_template_directory_uri(); ?>/images/nicolasComentario.png"
-									alt="" style=" height:200px; width:auto" class="">
-							</div>
-							<div class="about-img-bottom"><!-- BANER DIREITO PRINCIPLA -->
-								<img src="<?php echo get_template_directory_uri(); ?>/images/baner1.jpeg" alt=""
-									class="img-responsive">
-							</div>
-						</div>
-					</div>
-					<div class="clearfix"></div>
-					<div class="spacer-70"></div>
-				</div>
-			</div>
-			<div class="item">
-				<div class="row">
-					<div class="col-sm-5 col-md-5">
-						<h2 class="section-heading">
-							HISTÓRIAS DE SUCESSOS
-						</h2>
-						<h2 class="reset-section-heading">NICOLAS CARVALHO</h2>
-						<p>Participei do Curso LIFE COACH</p>
-						<p>"o curso de coaching foi transformador. A equipe
-							experiente e comprometida utilizou uma abordagem colaborativa e personalizada para
-							melhorar minhas habilidades de comunicação e autoconfiança. Recomendo a todos que
-							buscam crescimento pessoal e profissional." </p>
-						<div class="spacer-30"></div>
-						<a class="btn btn-primary">LEIA MAIS</a>
-						<div class="spacer-30"></div>
-					</div>
-					<div class="col-sm-7 col-md-7">
-						<div class="about-img">
-							<div class="about-img-top"><!-- BANER ESQUERDO PESSOA -->
-								<img src="<?php echo get_template_directory_uri(); ?>/images/nicolasComentario.png"
-									alt="" style=" height:200px; width:auto" class="">
-							</div>
-							<div class="about-img-bottom"><!-- BANER DIREITO PRINCIPLA -->
-								<img src="<?php echo get_template_directory_uri(); ?>/images/baner1.jpeg" alt=""
-									class="img-responsive">
-							</div>
-						</div>
-					</div>
-					<div class="clearfix"></div>
-					<div class="spacer-70"></div>
-				</div>
 			</div>
 
 		</div>
-
 	</div>
-</div>
 
 
-<script>
-	document.addEventListener('DOMContentLoaded', function () {
-		var downloadForm = document.getElementById('download-form');
+	<script>
+		document.addEventListener('DOMContentLoaded', function () {
+			var downloadForm = document.getElementById('download-form');
 
-		if (downloadForm) {
-			downloadForm.addEventListener('submit', function (event) {
-				event.preventDefault(); // Evita que o formulário seja submetido tradicionalmente
+			if (downloadForm) {
+				downloadForm.addEventListener('submit', function (event) {
+					event.preventDefault(); // Evita que o formulário seja submetido tradicionalmente
 
-				// Validar o formulário
-				var nameInput = downloadForm.querySelector('input[name="name"]');
-				var emailInput = downloadForm.querySelector('input[name="email"]');
+					// Validar o formulário
+					var nameInput = downloadForm.querySelector('input[name="name"]');
+					var emailInput = downloadForm.querySelector('input[name="email"]');
 
-				if (nameInput.value.trim() === '' || emailInput.value.trim() === '') {
-					alert('Por favor, preencha seu nome e email para baixar o ebook.');
+					if (nameInput.value.trim() === '' || emailInput.value.trim() === '') {
+						alert('Por favor, preencha seu nome e email para baixar o ebook.');
 
-					// Scroll para o formulário
-					downloadForm.scrollIntoView({ behavior: 'smooth', block: 'start' });
+						// Scroll para o formulário
+						downloadForm.scrollIntoView({ behavior: 'smooth', block: 'start' });
 
-					return;
-				}
+						return;
+					}
 
-				// Iniciar o download do PDF
-				window.open("<?php echo get_template_directory_uri(); ?>/images/ebook_tiger.pdf", "_blank");
+					// Iniciar o download do PDF
+					window.open("<?php echo get_template_directory_uri(); ?>/images/ebook_tiger.pdf", "_blank");
 
-				// Opcional: limpar os campos do formulário após o download iniciar
-				downloadForm.reset();
-			});
-		}
-	});
-</script>
+					// Opcional: limpar os campos do formulário após o download iniciar
+					downloadForm.reset();
+				});
+			}
+		});
+	</script>
 
-<?php get_footer(); ?>
+	<?php get_footer(); ?>

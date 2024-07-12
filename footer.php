@@ -42,7 +42,7 @@
 						</a>
 						<a href="#" title="">
 							<div class="item">
-								<i class="fa fa-twitter"></i>
+								<i class="fa fa-tiktok"></i>
 							</div>
 						</a>
 						<a href="https://www.instagram.com/explore/tags/tigeruniversalcoaching/" title="">
@@ -84,9 +84,11 @@
 						</li>
 						<li><a href="/cursos" title="">CURSOS</a>
 						</li>
+						<li><a href="/podcast" title="">PODCAST</a>
+						</li>
 						<li><a href="/contato" title="">CONTATO</a></li>
 						<li><a href="/login" title="">PORTAL DO
-								ALUNO</a></li>
+								COACHEE</a></li>
 					</ul>
 				</div>
 			</div>

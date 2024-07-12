@@ -33,11 +33,14 @@
 							DETALHES DE CONTATO
 						</h2>
 						<ul class="list-info">
-							<li>
+							<li><!-- Contato Brasil -->
 								<div class="info-icon">
 									<span class="fa fa-map-marker"></span>
 								</div>
-								<div class="info-text">Rua Bomsucesso, 1118 - Tatuapé, São Paulo, SP, Brazil, 03305-000
+								<div class="info-text">
+									<img src="<?php echo get_template_directory_uri(); ?>/images/br.webp"
+										alt="Brazil Flag" width="20" height="14"> Rua
+									Bomsucesso, 1118 - Tatuapé, São Paulo, SP, Brazil, 03305-000
 								</div>
 							</li>
 							<li>
@@ -54,14 +57,48 @@
 								</div>
 								<div class="info-text">jeanpenelantonie@outlook.com</div>
 							</li>
-							<!-- <li>
-									<div class="info-icon">
-										<span class="fa fa-clock-o"></span>
-									</div>
-									<div class="info-text">Mon - Sat 09:00 - 17:00</div>
-								</li> -->
-						</ul>
+							<hr>
+							<br>
+							<li><!-- Contato Estados Unidos -->
+								<div class="info-icon">
+									<span class="fa fa-map-marker"></span>
+								</div>
+								<div class="info-text">
+									<img src="<?php echo get_template_directory_uri(); ?>/images/us.webp" alt="USA Flag"
+										width="20" height="14"> 1841 North
+									Winds Dr Salem, <br>
+									NC 27127
+								</div>
+							</li>
+							<li>
+								<div class="info-icon">
+									<span class="fa fa-phone"></span>
+								</div>
+								<div class="info-text">Phone : +1336 995 9931 <br>
+								</div>
+							</li>
+							<hr>
 
+							<li><!-- Contato Dubai -->
+								<div class="info-icon">
+									<span class="fa fa-map-marker"></span>
+								</div>
+								<div class="info-text">
+									<img src="<?php echo get_template_directory_uri(); ?>/images/ae.webp" alt="UAE Flag"
+										width="20" height="14"> DUBAI (United
+									Arab Emirates) <br>
+									Marina Plaza - 112229
+								</div>
+							</li>
+							<li>
+								<div class="info-icon">
+									<span class="fa fa-phone"></span>
+								</div>
+								<div class="info-text">Phone : +971585729927 <br>
+								</div>
+								<div class="info-text">jeanpenelantonie@outlook.com</div>
+							</li>
+						</ul>
 					</div>
 
 					<div class="col-sm-10 col-md-10">
@@ -101,6 +138,13 @@
 							<button type="submit" class="btn btn-primary">Enviar Mensagem</button>
 						</div>
 					</form>
+
+					<div>
+						<img src="<?php echo get_template_directory_uri(); ?>/images/ajteacher.jpeg"
+							alt="Imagem do Professor" class=" rounded-2 ">
+					</div>
+
+
 					<div class="margin-bottom-50"></div>
 					<p><em>Nota: "Transforme seus desafios em oportunidades. A cada passo, você está mais perto de
 							alcançar seus objetivos."</em></p>
