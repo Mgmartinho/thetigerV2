@@ -101,68 +101,89 @@
 		<!-- NAVBAR SECTION -->
 		<div class="navbar navbar-main">
 
-			<div class="container container-nav">
-				<div class="row">
 
-					<div class="navbar-header" style="background-color: #00698c;">
-						<button type="button" class="navbar-toggle" data-toggle="collapse"
-							data-target=".navbar-collapse">
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-						</button>
+			<div class="row ">
 
-					</div>
-
-					<a class="navbar-brand" href="/">
-						<img src="<?php echo get_template_directory_uri(); ?>/images/logo1.png"
-							style="height:80px ;width:100px; padding-bottom: 25px" alt="" />
-					</a>
-
-					<nav class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" data-hover="dropdown"
-						data-animations="fadeInDown fadeInRight fadeInUp fadeInLeft">
-						<ul class="nav navbar-nav">
-							<li><a href="/">HOME</a></li>
-
-							<li><a href="/sobrenos">SOBRE NÓS</a></li>
-
-							<li class="dropdown">
-								<a href="<?php echo get_template_directory_uri(); ?>/#" class="dropdown-toggle"
-									data-toggle="dropdown" data-hover="dropdown" role="button" aria-haspopup="true"
-									aria-expanded="false">CURSOS <span class="caret"></span></a>
-								<ul class="dropdown-menu">
-									<li>
-										<a href="/cursos">LIFE COACH</a>
-									</li>
-									<li>
-										<a href="/cursos">MASTER LIFE COACH</a>
-									</li>
-									<li>
-										<a href="/cursos">COACHING RELACIONAMENTO</a>
-									</li>
-									<li>
-										<a href="/cursos">MASTER COACHING RELACIONAMENTO</a>
-									</li>
-
-								</ul>
-							</li>
-							<li><a href="/podcast"><i class="fas fa-podcast"></i> PODCAST</a></li>
-							<li>
-								<a href="/podcast">
-									<img src="<?php echo get_template_directory_uri(); ?>/images/iconepodcast3.png"
-										alt="Podcast"
-										style="background-color: #212635; width: auto; height: 20px; vertical-align: middle; margin-right: 0px; ; border-radius: 4px;">
-									PODCAST
-								</a>
-							</li>
-							<li><a href="/contato">CONTATO</a></li>
-							<li><a href="/login">PORTAL DO COACHEE</a></li>
-						</ul>
-
-					</nav>
+				<div class="navbar-header " style="background-color: #00698c;">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
 
 				</div>
+
+				<a id="logo" class="navbar-brand logo-hide" href="/">
+					<img src="<?php echo get_template_directory_uri(); ?>/images/logo3.jpeg"
+						style="height:150px ;width:450px; padding-bottom: 25px; padding-right: 30px" alt="" />
+				</a>
+
+			</div>
+
+			<div class="container container-nav">
+				<nav class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" data-hover="dropdown"
+					data-animations="fadeInDown fadeInRight fadeInUp fadeInLeft">
+					<ul class="nav navbar-nav">
+						<li><a href="/">HOME</a></li>
+
+						<li><a href="/sobrenos">SOBRE NÓS</a></li>
+
+						<li class="dropdown">
+							<a href="<?php echo get_template_directory_uri(); ?>/#" class="dropdown-toggle"
+								data-toggle="dropdown" data-hover="dropdown" role="button" aria-haspopup="true"
+								aria-expanded="false">CURSOS <span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li>
+									<a href="/cursos">LIFE COACH</a>
+								</li>
+								<li>
+									<a href="/cursos">MASTER LIFE COACH</a>
+								</li>
+								<li>
+									<a href="/cursos">COACHING RELACIONAMENTO</a>
+								</li>
+								<li>
+									<a href="/cursos">MASTER COACHING RELACIONAMENTO</a>
+								</li>
+
+							</ul>
+						</li>
+
+						<li>
+							<a href="/podcast">
+								<img src="<?php echo get_template_directory_uri(); ?>/images/iconepodcast3.png"
+									alt="Podcast"
+									style="background-color: #212635; width: auto; height: 20px; vertical-align: middle; margin-right: 0px; ; border-radius: 4px;">
+								PODCAST
+							</a>
+						</li>
+						<li><a href="/contato">CONTATO</a></li>
+						<li><a href="/login">PORTAL DO COACHEE</a></li>
+					</ul>
+
+				</nav>
+
 			</div>
 		</div>
+	</div>
 
 	</div>
+
+	<script>
+    function hideLogoOnSmallScreens() {
+        var logo = document.getElementById('logo');
+        if (window.innerWidth <= 1080) {
+            logo.style.display = 'none';
+        } else {
+            logo.style.display = 'block';
+        }
+    }
+
+    // Esconder logo ao carregar a página
+    hideLogoOnSmallScreens();
+
+    // Esconder logo ao redimensionar a tela
+    window.onresize = function() {
+        hideLogoOnSmallScreens();
+    };
+</script>

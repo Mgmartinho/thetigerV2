@@ -77,6 +77,12 @@
 								<div class="info-text">Phone : +1336 995 9931 <br>
 								</div>
 							</li>
+							<li>
+								<div class="info-icon">
+									<span class="fa fa-envelope"></span>
+								</div>
+								<div class="info-text">jeanpenelantonie@outlook.com</div>
+							</li>
 							<hr>
 
 							<li><!-- Contato Dubai -->
@@ -95,6 +101,12 @@
 									<span class="fa fa-phone"></span>
 								</div>
 								<div class="info-text">Phone : +971585729927 <br>
+								</div>
+								
+							</li>
+							<li>
+								<div class="info-icon">
+									<span class="fa fa-envelope"></span>
 								</div>
 								<div class="info-text">jeanpenelantonie@outlook.com</div>
 							</li>

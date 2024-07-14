@@ -343,7 +343,7 @@
 					<div class="col-sm-6 col-md-4 col-lg-3">
 						<div class="box-icon-3">
 							<div class="icon">
-								<div class="fa fa-graduation-cap fa-2x"></div>
+								<div class="fa fa-group fa-2x"></div>
 							</div>
 							<h5 class="heading"><a href="/cursos">GRUPO DE ESTUDOS</a></h5>
 							<div class="body-content">
@@ -379,7 +379,7 @@
 					<div class="col-sm-6 col-md-4 col-lg-3">
 						<div class="box-icon-3">
 							<div class="icon">
-								<div class="fa fa-group fa-2x"></div>
+								<div class="fa fa-briefcase fa-2x"></div>
 							</div>
 							<h5 class="heading"><a href="/cursos">EBOOKS</a></h5>
 							<div class="body-content">
@@ -398,7 +398,7 @@
 					<div class="col-sm-6 col-md-4 col-lg-3">
 						<div class="box-icon-3">
 							<div class="icon">
-								<div class="fa fa-leaf fa-2x"></div>
+								<div class="fa fa-bullhorn fa-2x"></div>
 							</div>
 							<h5 class="heading"><a href="/cursos">SUPORTE PERSONALIZADO</a></h5>
 							<div class="body-content">
@@ -413,6 +413,42 @@
 						<div class="spacer-30"></div>
 					</div>
 					<!-- Item 6 -->
+					<div class="col-sm-6 col-md-4 col-lg-3">
+						<div class="box-icon-3">
+							<div class="icon">
+								<div class="fa fa-institution fa-2x"></div>
+							</div>
+							<h5 class="heading"><a href="/cursos">ATIVIDADES PRÁTICAS</a></h5>
+							<div class="body-content">
+								<i class="fa fa-circle-o"></i>
+								<p>
+									Exercícios exclusivos e atividades práticas sobre o que aprenderá no curso.
+									<br>
+									<a href="/cursos">MAIS INFORMAÇÕES</a>
+								</p>
+							</div>
+						</div>
+						<div class="spacer-30"></div>
+					</div>
+					<!-- Item 7 -->
+					<div class="col-sm-6 col-md-4 col-lg-3">
+						<div class="box-icon-3">
+							<div class="icon">
+								<div class="fa fa-graduation-cap fa-2x"></div>
+							</div>
+							<h5 class="heading"><a href="/cursos">ATIVIDADES PRÁTICAS</a></h5>
+							<div class="body-content">
+								<i class="fa fa-circle-o"></i>
+								<p>
+									Exercícios exclusivos e atividades práticas sobre o que aprenderá no curso.
+									<br>
+									<a href="/cursos">MAIS INFORMAÇÕES</a>
+								</p>
+							</div>
+						</div>
+						<div class="spacer-30"></div>
+					</div>
+					<!-- ITEM 8 -->
 					<div class="col-sm-6 col-md-4 col-lg-3">
 						<div class="box-icon-3">
 							<div class="icon">
