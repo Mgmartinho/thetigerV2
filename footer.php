@@ -29,8 +29,7 @@
 					<img src="<?php echo get_template_directory_uri(); ?>/images/logo1.png" style="height:120px;
 								width:225px" alt="logo bottom" class="logo-bottom">
 					<div class="spacer-30"></div>
-					<p>Rua Bomsucesso, 1118 - Tatuapé. <br>São Paulo, SP, Brazil, 03305-000.<br>
-						<br>
+											<br>
 						jeanpenelantoine@outlook.com <br>
 						+971 58 572 9927
 					</p>

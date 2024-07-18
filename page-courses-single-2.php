@@ -4,7 +4,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-12 col-md-12">
-				<div class="title-page">Services</div>
+				<div class="title-page">Master Life Coach</div>
 			</div>
 		</div>
 	</div>

@@ -4,7 +4,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-12 col-md-12">
-				<div class="title-page">Life Coaching</div>
+				<div class="title-page">Marketing Coaching</div>
 			</div>
 		</div>
 	</div>
@@ -13,7 +13,7 @@
 			<ol class="breadcrumb">
 				<li><a href="index.html">Home</a></li>
 				<li><a href="services.html">Cursos</a></li>
-				<li class="active">Life Coaching</li>
+				<li class="active">Marketing Coaching</li>
 			</ol>
 		</div>
 	</div>
@@ -25,36 +25,32 @@
 		<div class="row">
 
 			<div class="col-sm-6 col-md-6">
-				<h3>O que é Life Coaching?</h3>
+				<h3>
+					O que é o Curso de Marketing Coaching?</h3>
 				<p>
-					Life Coaching é uma parceria colaborativa projetada entre o coach e o cliente, onde a relação de
-					coaching devolve continuamente todo o poder a você, o cliente. Eu acredito que você conhece as
-					respostas para todas as perguntas ou desafios que possa ter em sua vida, mesmo que essas respostas
-					pareçam estar obscurecidas, ocultas ou escondidas dentro de você. Eu aplico técnicas baseadas em
-					pesquisas para ajudar as pessoas a desenvolverem hábitos mais eficazes e a superarem os desafios da
-					vida.
+					O curso de Marketing Coaching oferece uma abordagem abrangente para desenvolver habilidades
+					essenciais no campo do coaching de marketing. Desde a criação de planos de marketing eficazes até
+					estratégias avançadas de comercialização e atração de clientes, os participantes exploram como
+					aplicar técnicas de marketing coaching para impulsionar seus negócios e alcançar resultados
+					mensuráveis.
 				</p>
 				<p>
-					Por que ser uma pessoa comum quando você pode ser um super-herói?
-					A vida é melhor quando você está no topo.
-					Quer sucesso ou mais sucesso?
-					Você precisa de um coach.
-					O objetivo do coaching é orientar a visão, estimular e capacitar o que está sendo treinado - o
-					jogador - através do estabelecimento de uma conexão mais firme com a sua autoridade interior.
-					Coaching ajuda a definir e alcançar seus objetivos Emocionantes.
-					Coaching é ajudar os outros a identificar e definir os seus objetivos específicos, e em seguida,
-					organizar-se para atingir esses objetivos. É a construção de habilidades pessoais de um indivíduo
-					ajudando-o a alcançar seus objetivos.
-					Coaches baseiam-se em conhecimento interior de um cliente com recursos e criatividade para ajudá-lo
-					a ser mais eficaz.
+					Além disso, o curso aborda a importância de compreender o mercado-alvo, a diferença entre coaching e
+					outras formas de orientação, e como obter feedback valioso para melhorar continuamente suas práticas
+					de coaching. Com módulos dedicados à criação de sistemas operacionais, estratégias para atrair
+					clientes de alto nível e técnicas de marketing online e offline, os alunos são preparados para
+					maximizar o impacto de seus serviços de coaching e ajudar seus clientes a alcançar o sucesso.
 
 				</p>
+
+
 			</div>
 
 			<div class="col-sm-6 col-md-6">
-				<img src="<?php echo get_template_directory_uri(); ?>/images/lifecoach.png" alt=""
-					class="img-responsive img-rounded">
+				<img src="<?php echo get_template_directory_uri(); ?>/images/marketingcoaching.png" alt="Imagem Redonda"
+					class="img-fluid rounded-circle">
 			</div>
+
 
 		</div>
 		<div class="spacer-50"></div>
@@ -62,26 +58,50 @@
 			<div class="col-sm-6 col-md-6">
 				<h3>Conheça os Módulos do Curos</h3>
 				<div class="section-subheading">
-					O curso de Life Coach é dividido em Módulos para poder facilitar o
-					entendimento e a aplicação das metodologias de ensinamento. <br>
+					O curso de Marketing Coaching é dividido em módulos para facilitar o entendimento e a aplicação das
+					metodologias ensinadas. Conheça cada módulo: <br>
 					conheça cada Módulo:
 				</div>
 				<ul class="checklist">
-					<li>Módulo I: Introdução aos conceitos e princípios fundamentais do coaching, incluindo definições e
-						perguntas frequentes.</li>
-					<li>Módulo II:
-						Exploração dos requisitos e competências da Federação Internacional de Coaching (ICF) para
-						certificação.</li>
-					<li>Módulo III:
-						Estratégias para atrair clientes, desenvolver confiança como coach e configurar seu escritório.
+					<li><strong>Módulo I:</strong> Um plano de marketing que funciona!</li>
+					<li><strong>Módulo II:</strong> Segredos revelados sobre o lançamento de seu negócio de coaching.
 					</li>
-					<li>Módulo IV:
-						Práticas éticas e profissionais no coaching, distinguindo entre coaching e outras profissões de
-						apoio.</li>
-					<li>Módulo V:
-						Técnicas de marketing para coaches e a importância de fazer perguntas poderosas no processo de
-						coaching.</li>
-
+					<li><strong>Módulo III:</strong> Principais estratégias para atrair clientes de alto nível.</li>
+					<li><strong>Módulo IV:</strong> Comercialização de seus serviços de coaching.</li>
+					<li><strong>Módulo V:</strong> Coach de marketing de negócios.</li>
+					<li><strong>Módulo VI:</strong> Criando um lugar onde as pessoas queiram se reunir.</li>
+					<li><strong>Módulo VII:</strong> Introdução, Visionar, Um design, Encontrando pessoas, Propaganda,
+						Listas e respostas automáticas, As regras de ouro, Treinamento, Conclusão.</li>
+					<li><strong>Módulo VIII:</strong> Introdução, O início, Sobre ser real, Um segredo e um tesouro, O
+						grande exemplo, Outros ensinos, As perguntas certas, Lições de vida, Imaginando e ensinando,
+						Conclusão.</li>
+					<li><strong>Módulo IX:</strong> Introdução, O que você tem que considerar, Aprofundando-se nas
+						considerações, Tipos de negócios, Um olhar básico no seu próprio produto, Seus objetivos
+						primários de negócio, Não importa o que você escolha, você precisa de integridade, Conclusão.
+					</li>
+					<li><strong>Módulo X:</strong> Introdução, Marketing na internet para iniciantes, Uma visão geral do
+						marketing na internet, Preparado para mudar, A força do marketing na internet, Desencadeando o
+						poder das redes sociais, Obtenção e retenção de clientes - novos mantras, Antigos métodos do
+						marketing na internet que ainda funcionam, Conclusão.</li>
+					<li><strong>Módulo XI:</strong> Introdução, O básico, Criar o seu caminho para o sucesso no
+						marketing de rede, Planeje a sua conquista, Métodos para encontrar clientes em potencial,
+						Motivar completamente os espectadores, Gerando liderança e prospecções online, Envolvimento da
+						internet no marketing de rede, Conclusão.</li>
+					<li><strong>Módulo XII:</strong> Introdução, O básico, Dê uma festa, Use áudio, Falar em público,
+						Use vídeo, Mantenha-os motivados, Gerando liderança, Você patrocina todos, Conclusão.</li>
+					<li><strong>Módulo XIII:</strong> Introdução, O grande erro, Como você vê o seu negócio, O que você
+						quer, Estabelecendo um plano, Um passo adiante, Obtendo ajuda se você precisar, Mantenha o seu
+						dinheiro, Continuando, Conclusão.</li>
+					<li><strong>Módulo XIV:</strong> Introdução, Automatizando: o sonho se torna realidade, Lista Fria,
+						Bom marketing, Ferramentas adicionais, Nome do site e instruindo a equipe, Marketing viral,
+						Noções básicas de SEO, Usando e-mail, Conclusão.</li>
+					<li><strong>Módulo XV:</strong> Diversos pensamentos de diferentes coaches sobre marketing coaching.
+					</li>
+					<li><strong>Módulo XVI:</strong> Coaching marketing de negócios - técnicas off-line.</li>
+					<li><strong>Módulo XVII:</strong> Coaching marketing de negócios - técnicas on-line mídia social
+						101.</li>
+					<li><strong>Módulo XVIII:</strong> Gerenciando o coaching de negócio, começando e administrando um
+						coaching de negócios.</li>
 				</ul>
 			</div>
 			<div class="col-sm-6 col-md-6">
@@ -213,7 +233,8 @@
 							</header>
 							<!-- BOTÃO DE COMPRA -->
 							<div class="panel-footer">
-								<a href="https://pay.hotmart.com/P6057267L?bid=1719757038923" target="_blank" class="btn btn-primary">COMPRAR AGORA</a>
+								<a href="https://pay.hotmart.com/C7410118T" target="_blank"
+									class="btn btn-primary">COMPRAR AGORA</a>
 							</div>
 						</div>
 					</div>
@@ -226,13 +247,14 @@
 									<sup>R$</sup>997.00<small>à vista</small>
 								</div>
 							</header>
-							
+
 							<div class="panel-footer">
-								<a href="https://pay.hotmart.com/P6057267L?bid=1719757038923" target="_blank" class="btn btn-primary">COMPRAR AGORA</a>
+								<a href="https://pay.hotmart.com/C7410118T" target="_blank"
+									class="btn btn-primary">COMPRAR AGORA</a>
 							</div>
 						</div>
 					</div>
-					
+
 				</div>
 			</div>
 

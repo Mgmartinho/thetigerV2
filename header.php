@@ -145,6 +145,15 @@
 								<li>
 									<a href="/cursos">MASTER COACHING RELACIONAMENTO</a>
 								</li>
+								<li>
+									<a href="/cursos">BUSINESS COACHING</a>
+								</li>
+								<li>
+									<a href="/cursos"> COACHING DE IDIOMAS AJ</a>
+								</li>
+								<li>
+									<a href="/cursos">MARKETING COACHING </a>
+								</li>
 
 							</ul>
 						</li>

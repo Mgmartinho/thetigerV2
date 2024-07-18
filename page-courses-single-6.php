@@ -4,7 +4,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-12 col-md-12">
-				<div class="title-page">Life Coaching</div>
+				<div class="title-page">Coaching de Idiomas AJ</div>
 			</div>
 		</div>
 	</div>
@@ -13,7 +13,7 @@
 			<ol class="breadcrumb">
 				<li><a href="index.html">Home</a></li>
 				<li><a href="services.html">Cursos</a></li>
-				<li class="active">Life Coaching</li>
+				<li class="active">Coaching de Idiomas AJ</li>
 			</ol>
 		</div>
 	</div>
@@ -25,36 +25,31 @@
 		<div class="row">
 
 			<div class="col-sm-6 col-md-6">
-				<h3>O que é Life Coaching?</h3>
+				<h3>O que é o Curso de Business Coaching?</h3>
 				<p>
-					Life Coaching é uma parceria colaborativa projetada entre o coach e o cliente, onde a relação de
-					coaching devolve continuamente todo o poder a você, o cliente. Eu acredito que você conhece as
-					respostas para todas as perguntas ou desafios que possa ter em sua vida, mesmo que essas respostas
-					pareçam estar obscurecidas, ocultas ou escondidas dentro de você. Eu aplico técnicas baseadas em
-					pesquisas para ajudar as pessoas a desenvolverem hábitos mais eficazes e a superarem os desafios da
-					vida.
+					O curso de Business Coaching oferece uma abordagem detalhada para desenvolver habilidades essenciais
+					no campo do coaching empresarial. Desde a introdução aos conceitos fundamentais de coaching até
+					estratégias avançadas de liderança e desenvolvimento de equipes, os participantes exploram como
+					aplicar técnicas de coaching no ambiente de negócios, criar fluxos criativos, e promover um impacto
+					positivo e mensurável nas empresas.
 				</p>
 				<p>
-					Por que ser uma pessoa comum quando você pode ser um super-herói?
-					A vida é melhor quando você está no topo.
-					Quer sucesso ou mais sucesso?
-					Você precisa de um coach.
-					O objetivo do coaching é orientar a visão, estimular e capacitar o que está sendo treinado - o
-					jogador - através do estabelecimento de uma conexão mais firme com a sua autoridade interior.
-					Coaching ajuda a definir e alcançar seus objetivos Emocionantes.
-					Coaching é ajudar os outros a identificar e definir os seus objetivos específicos, e em seguida,
-					organizar-se para atingir esses objetivos. É a construção de habilidades pessoais de um indivíduo
-					ajudando-o a alcançar seus objetivos.
-					Coaches baseiam-se em conhecimento interior de um cliente com recursos e criatividade para ajudá-lo
-					a ser mais eficaz.
+					Além disso, o curso aborda a importância do coaching para a liderança, a diferenciação entre
+					coaching e outras formas de orientação, e como o coaching pode beneficiar empresas criativas. Com
+					módulos dedicados a modelos de coaching, desenvolvimento de planos de negócios e criação de
+					objetivos SMART, os alunos são preparados para impulsionar suas carreiras e ajudar suas organizações
+					a alcançar o sucesso.
 
 				</p>
+
+
 			</div>
 
 			<div class="col-sm-6 col-md-6">
-				<img src="<?php echo get_template_directory_uri(); ?>/images/lifecoach.png" alt=""
-					class="img-responsive img-rounded">
+				<img src="<?php echo get_template_directory_uri(); ?>/images/marketingcoaching.png"
+					alt="Imagem Redonda" class="img-fluid rounded-circle">
 			</div>
+
 
 		</div>
 		<div class="spacer-50"></div>
@@ -62,26 +57,47 @@
 			<div class="col-sm-6 col-md-6">
 				<h3>Conheça os Módulos do Curos</h3>
 				<div class="section-subheading">
-					O curso de Life Coach é dividido em Módulos para poder facilitar o
-					entendimento e a aplicação das metodologias de ensinamento. <br>
+					O curso de Business Coaching é dividido em módulos para facilitar o entendimento e a aplicação das
+					metodologias ensinadas. Conheça cada módulo: <br>
 					conheça cada Módulo:
 				</div>
 				<ul class="checklist">
-					<li>Módulo I: Introdução aos conceitos e princípios fundamentais do coaching, incluindo definições e
-						perguntas frequentes.</li>
-					<li>Módulo II:
-						Exploração dos requisitos e competências da Federação Internacional de Coaching (ICF) para
-						certificação.</li>
-					<li>Módulo III:
-						Estratégias para atrair clientes, desenvolver confiança como coach e configurar seu escritório.
-					</li>
-					<li>Módulo IV:
-						Práticas éticas e profissionais no coaching, distinguindo entre coaching e outras profissões de
-						apoio.</li>
-					<li>Módulo V:
-						Técnicas de marketing para coaches e a importância de fazer perguntas poderosas no processo de
+					<li><strong>Módulo I:</strong> Introduz conceitos básicos e diferencia o coaching de outras formas
+						de orientação.</li>
+					<li><strong>Módulo II:</strong> Explora a relação entre coaching, liderança e diferentes modelos de
 						coaching.</li>
-
+					<li><strong>Módulo III:</strong> Aborda como o coaching pode promover a criatividade e o impacto
+						positivo nas empresas.</li>
+					<li><strong>Módulo IV:</strong> Destaca as vantagens do business coaching para empresas e líderes.
+					</li>
+					<li><strong>Módulo V:</strong> Examina diferentes estilos e modelos de coaching para maximizar a
+						eficácia no ambiente de trabalho.</li>
+					<li><strong>Módulo VI:</strong> Descreve práticas e técnicas para coaches de negócios, destacando
+						seu papel e impacto.</li>
+					<li><strong>Módulo VII:</strong> Explica os benefícios do business coaching e como ele pode
+						transformar seu negócio.</li>
+					<li><strong>Módulo VIII:</strong> Foca no desenvolvimento de liderança e na criação de uma visão
+						baseada em valores.</li>
+					<li><strong>Módulo IX:</strong> Ensina técnicas de gestão de tempo para melhorar a produtividade
+						pessoal e profissional.</li>
+					<li><strong>Módulo X:</strong> Explora estratégias eficazes de delegação e como atuar com
+						autoridade.</li>
+					<li><strong>Módulo XI:</strong> Orienta na criação e gestão de objetivos SMART para alcançar metas
+						de forma eficaz.</li>
+					<li><strong>Módulo XII:</strong> Destaca a importância do elogio e como utilizá-lo de maneira eficaz
+						no ambiente de trabalho.</li>
+					<li><strong>Módulo XIII:</strong> Descreve técnicas para fornecer feedback eficaz e construtivo.
+					</li>
+					<li><strong>Módulo XIV:</strong> Introduz uma abordagem renovada da análise SWOT para avaliar
+						negócios e estratégias.</li>
+					<li><strong>Módulo XV:</strong> Explora técnicas para o desenvolvimento pessoal e profissional
+						contínuo.</li>
+					<li><strong>Módulo XVI:</strong> Introduz o conceito da "sexta mala" como uma metáfora para o
+						crescimento pessoal.</li>
+					<li><strong>Módulo XVII:</strong> Examina a dinâmica de equipes e como construir equipes eficazes.
+					</li>
+					<li><strong>Módulo XVIII:</strong> Fornece uma visão geral das principais ferramentas de coaching e
+						como aplicá-las.</li>
 				</ul>
 			</div>
 			<div class="col-sm-6 col-md-6">
@@ -208,12 +224,13 @@
 							<header class="panel-heading">
 								<h3>Parcelado</h3>
 								<div class="price">
-									<sup>R$</sup>99.50<small>12x</small>
+									<sup>R$</sup>29.64<small>12x</small>
 								</div>
 							</header>
 							<!-- BOTÃO DE COMPRA -->
 							<div class="panel-footer">
-								<a href="https://pay.hotmart.com/P6057267L?bid=1719757038923" target="_blank" class="btn btn-primary">COMPRAR AGORA</a>
+								<a href="https://pay.hotmart.com/L12667439I"
+									target="_blank" class="btn btn-primary">COMPRAR AGORA</a>
 							</div>
 						</div>
 					</div>
@@ -223,16 +240,17 @@
 							<header class="panel-heading">
 								<h3>à Vista</h3>
 								<div class="price">
-									<sup>R$</sup>997.00<small>à vista</small>
+									<sup>R$</sup>297.00<small>à vista</small>
 								</div>
 							</header>
-							
+
 							<div class="panel-footer">
-								<a href="https://pay.hotmart.com/P6057267L?bid=1719757038923" target="_blank" class="btn btn-primary">COMPRAR AGORA</a>
+								<a href="https://pay.hotmart.com/L12667439I"
+									target="_blank" class="btn btn-primary">COMPRAR AGORA</a>
 							</div>
 						</div>
 					</div>
-					
+
 				</div>
 			</div>
 

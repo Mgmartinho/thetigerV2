@@ -4,7 +4,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-12 col-md-12">
-				<div class="title-page">Services</div>
+				<div class="title-page">Coaching relacionamento</div>
 			</div>
 		</div>
 	</div>
@@ -13,7 +13,7 @@
 			<ol class="breadcrumb">
 				<li><a href="index.html">Home</a></li>
 				<li><a href="services.html">Cursos</a></li>
-				<li class="active">Life Coaching</li>
+				<li class="active">Coaching relacionamento</li>
 			</ol>
 		</div>
 	</div>

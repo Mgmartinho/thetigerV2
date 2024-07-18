@@ -98,64 +98,63 @@ get_header();
 							</div>
 						</div>
 					</div>
-					<!-- <div class="col-sm-3 col-md-3">
-							
-							<div class="feature-box-8">
-								<div class="media">
-									<img src="<?php echo get_template_directory_uri(); ?>/images/600x350.jpg" alt="rud" class="img-responsive">
-								</div>
-								<div class="body">
-									<a href="services-detail.html" class="title">Speaker</a>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed</p>
-									<a href="services-detail.html">Comprar Agora</a>
-								</div>
-							</div>
-						</div>
-						<div class="col-sm-3 col-md-3">
-							
-							<div class="feature-box-8">
-								<div class="media">
-									<img src="<?php echo get_template_directory_uri(); ?>/images/600x350.jpg" alt="rud" class="img-responsive">
-								</div>
-								<div class="body">
-									<a href="services-detail.html" class="title">Transition Coaching</a>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed</p>
-									<a href="services-detail.html">Comprar Agora</a>
-								</div>
-							</div>
-						</div>
-						<div class="col-sm-3 col-md-3">
-							
-							<div class="feature-box-8">
-								<div class="media">
-									<img src="<?php echo get_template_directory_uri(); ?>/images/600x350.jpg" alt="rud" class="img-responsive">
-								</div>
-								<div class="body">
-									<a href="services-detail.html" class="title">Health Coaching</a>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed</p>
-									<a href="services-detail.html">Comprar Agora</a>
-								</div>
-							</div>
-						</div>
-						<div class="col-sm-3 col-md-3">
-							
-							<div class="feature-box-8">
-								<div class="media">
-									<img src="<?php echo get_template_directory_uri(); ?>/images/600x350.jpg" alt="rud" class="img-responsive">
-								</div>
-								<div class="body">
-									<a href="services-detail.html" class="title">Corporate Coaching</a>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed</p>
-									<a href="services-detail.html">Comprar Agora</a>
-								</div>
-							</div>
-						</div> -->
 				</div>
 			</div>
+		</div>
+	
 
+
+		<div class="row justify-content-center align-items-center text-center" 
+			style="display: flex !important; justify-content: center !important; align-items: center !important; text-align: center !important;">
+			<div class="col-sm-3 col-md-3">
+				<!-- BOX 5 -->
+				<div class="feature-box-8">
+					<div class="media">
+					<img src="<?php echo get_template_directory_uri(); ?>/images/businesscoaching.png" alt="rud"
+					class="img-responsive">
+					</div>
+					<div class="body">
+						<a href="/courses-single-4" class="title">Business Coaching </a>
+						<a class="btn btn-warning" href="/courses-single-5">
+							Comprar Agora
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-3 col-md-3">
+				<!-- box-6 -->
+				<div class="feature-box-8">
+					<div class="media">
+						<img src="<?php echo get_template_directory_uri(); ?>/images/600x350.jpg" alt="rud"
+							class="img-responsive">
+					</div>
+					<div class="body">
+						<a href="/courses-single-4" class="title">Coaching de Idiomas AJ </a>
+						<a class="btn btn-warning" href="/courses-single-6">
+							Comprar Agora
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-3 col-md-3">
+				<!-- BOX 7 -->
+				<div class="feature-box-8">
+					<div class="media">
+						<img src="<?php echo get_template_directory_uri(); ?>/images/marketingcoaching.png"
+							alt="rud" class="img-responsive">
+					</div>
+					<div class="body">
+						<a href="/courses-single-4" class="title">Marketing Coaching </a>
+						<a class="btn btn-warning" href="/courses-single-7">
+							Comprar Agora
+						</a>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 </div>
+
 <!-- FECHAMENTO DE CURSOS -->
 <!-- APPOINTMENT -->
 <div class="section bg-overlay-3">
@@ -166,14 +165,17 @@ get_header();
 				<div class="wrap-book">
 					<div class="row">
 						<div class="col-sm-7 col-md-7">
-	<div style="background-image: url('https://www.pepperweb.com.br/wp-content/uploads/2019/09/tire-duvidas-seus-clientes.jpg'); background-size: cover; background-position: center; width: 600px; height: 600px;">
-</div>
+							<div
+								style="background-image: url('https://www.pepperweb.com.br/wp-content/uploads/2019/09/tire-duvidas-seus-clientes.jpg'); background-size: cover; background-position: center; width: 600px; height: 600px;">
+							</div>
 
 
 						</div>
 						<div class="col-sm-5 col-md-5">
 							<div class="wrap-form">
-								<h2 class="reset-section-heading" style="margin-top: 20px;">TIRE SUAS DUVIDAS CONOSCO</h2>
+								<h2 class="reset-section-heading" style="margin-top: 20px;">TIRE SUAS DUVIDAS
+									CONOSCO
+								</h2>
 								<?php echo do_shortcode('[contact-form-7 id="a1a10a8" title="FORMULARIO DE CONTATO"]'); ?>
 								<form action="#" class="form-appointment" id="contactForm" data-toggle="validator"
 									novalidate="true">

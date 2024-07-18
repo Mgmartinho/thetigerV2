@@ -147,6 +147,9 @@
 
 <!-- WHY -->
 <div class="section services section-border">
+<img src="<?php echo get_template_directory_uri(); ?>/images/tecnologia1.png"
+style="height: 400px; width: 100%; object-fit: cover;" class="img-responsive" alt="">
+
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-12 col-md-12">
@@ -436,11 +439,11 @@
 							<div class="icon">
 								<div class="fa fa-graduation-cap fa-2x"></div>
 							</div>
-							<h5 class="heading"><a href="/cursos">ATIVIDADES PRÁTICAS</a></h5>
+							<h5 class="heading"><a href="/cursos">DESENVOLVIMENTO EM GRUPOS</a></h5>
 							<div class="body-content">
 								<i class="fa fa-circle-o"></i>
 								<p>
-									Exercícios exclusivos e atividades práticas sobre o que aprenderá no curso.
+									Participação em atividades de com grupos, voltados para o crescimento profissional.
 									<br>
 									<a href="/cursos">MAIS INFORMAÇÕES</a>
 								</p>
@@ -452,13 +455,13 @@
 					<div class="col-sm-6 col-md-4 col-lg-3">
 						<div class="box-icon-3">
 							<div class="icon">
-								<div class="fa fa-graduation-cap fa-2x"></div>
+								<div class="fa fa-circle-o fa-2x"></div>
 							</div>
-							<h5 class="heading"><a href="/cursos">ATIVIDADES PRÁTICAS</a></h5>
+							<h5 class="heading"><a href="/cursos">FEEDBACK AO FINAL DO CURSO</a></h5>
 							<div class="body-content">
 								<i class="fa fa-circle-o"></i>
 								<p>
-									Exercícios exclusivos e atividades práticas sobre o que aprenderá no curso.
+									Ao concluir o curso, você receberá uma mentoria para aferir seu nivel conhecimento
 									<br>
 									<a href="/cursos">MAIS INFORMAÇÕES</a>
 								</p>
