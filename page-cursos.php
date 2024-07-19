@@ -111,10 +111,10 @@ get_header();
 				<div class="feature-box-8">
 					<div class="media">
 					<img src="<?php echo get_template_directory_uri(); ?>/images/businesscoaching.png" alt="rud"
-					class="img-responsive">
+					class="img-responsive ">
 					</div>
 					<div class="body">
-						<a href="/courses-single-4" class="title">Business Coaching </a>
+						<a href="/courses-single-5" class="title">Business Coaching </a>
 						<a class="btn btn-warning" href="/courses-single-5">
 							Comprar Agora
 						</a>
@@ -125,11 +125,11 @@ get_header();
 				<!-- box-6 -->
 				<div class="feature-box-8">
 					<div class="media">
-						<img src="<?php echo get_template_directory_uri(); ?>/images/600x350.jpg" alt="rud"
-							class="img-responsive">
+						<img src="<?php echo get_template_directory_uri(); ?>/images/coachingidiomas.jpeg" alt="rud"
+							class="img-responsive" style="border-radius: 50%; object-fit: cover;">
 					</div>
 					<div class="body">
-						<a href="/courses-single-4" class="title">Coaching de Idiomas AJ </a>
+						<a href="/courses-single-6" class="title">Coaching de Idiomas AJ </a>
 						<a class="btn btn-warning" href="/courses-single-6">
 							Comprar Agora
 						</a>
@@ -144,7 +144,7 @@ get_header();
 							alt="rud" class="img-responsive">
 					</div>
 					<div class="body">
-						<a href="/courses-single-4" class="title">Marketing Coaching </a>
+						<a href="/courses-single-7" class="title">Marketing Coaching </a>
 						<a class="btn btn-warning" href="/courses-single-7">
 							Comprar Agora
 						</a>

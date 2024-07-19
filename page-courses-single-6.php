@@ -23,86 +23,97 @@
 <div class="section section-border">
 	<div class="container">
 		<div class="row">
-
 			<div class="col-sm-6 col-md-6">
-				<h3>O que é o Curso de Business Coaching?</h3>
+				<h3>O que é o Curso de Coaching de Idiomas AJ?</h3>
 				<p>
-					O curso de Business Coaching oferece uma abordagem detalhada para desenvolver habilidades essenciais
-					no campo do coaching empresarial. Desde a introdução aos conceitos fundamentais de coaching até
-					estratégias avançadas de liderança e desenvolvimento de equipes, os participantes exploram como
-					aplicar técnicas de coaching no ambiente de negócios, criar fluxos criativos, e promover um impacto
-					positivo e mensurável nas empresas.
+					O curso de idiomas é um programa de aprendizado projetado para ensinar a fluência em uma nova língua
+					de forma eficiente e natural. Ele adota uma abordagem prática, focando em métodos que refletem a
+					maneira como os nativos aprendem sua língua materna. Através de atividades interativas e exposição
+					constante ao idioma, o curso visa desenvolver habilidades de conversação, compreensão auditiva e
+					pronúncia correta.
 				</p>
 				<p>
-					Além disso, o curso aborda a importância do coaching para a liderança, a diferenciação entre
-					coaching e outras formas de orientação, e como o coaching pode beneficiar empresas criativas. Com
-					módulos dedicados a modelos de coaching, desenvolvimento de planos de negócios e criação de
-					objetivos SMART, os alunos são preparados para impulsionar suas carreiras e ajudar suas organizações
-					a alcançar o sucesso.
-
+					Em vez de depender exclusivamente de regras gramaticais e memorização de vocabulário, o curso
+					enfatiza a imersão e o uso do idioma em contextos reais. Os alunos são guiados por um coach de
+					idiomas que personaliza o aprendizado com base nas necessidades individuais, promovendo um
+					desenvolvimento mais ágil e confiante. O objetivo é garantir que os participantes não apenas
+					entendam, mas também usem o idioma de maneira fluente e natural no dia a dia.
 				</p>
-
-
 			</div>
-
 			<div class="col-sm-6 col-md-6">
-				<img src="<?php echo get_template_directory_uri(); ?>/images/marketingcoaching.png"
-					alt="Imagem Redonda" class="img-fluid rounded-circle">
+				<img src="<?php echo get_template_directory_uri(); ?>/images/coachingidiomas.jpeg" alt="rud"
+					class="img-responsive" style="border-radius: 50%; width: auto; height: 500px; object-fit: cover;">
+
 			</div>
-
-
 		</div>
+
 		<div class="spacer-50"></div>
+
 		<div class="row">
 			<div class="col-sm-6 col-md-6">
-				<h3>Conheça os Módulos do Curos</h3>
+				<h3>Conheça os Módulos do Curso</h3>
 				<div class="section-subheading">
-					O curso de Business Coaching é dividido em módulos para facilitar o entendimento e a aplicação das
-					metodologias ensinadas. Conheça cada módulo: <br>
-					conheça cada Módulo:
+					O curso de Coaching de Idiomas AJ é dividido em módulos para facilitar o entendimento e a aplicação
+					das
+					metodologias ensinadas. Conheça cada módulo:
 				</div>
 				<ul class="checklist">
-					<li><strong>Módulo I:</strong> Introduz conceitos básicos e diferencia o coaching de outras formas
-						de orientação.</li>
-					<li><strong>Módulo II:</strong> Explora a relação entre coaching, liderança e diferentes modelos de
-						coaching.</li>
-					<li><strong>Módulo III:</strong> Aborda como o coaching pode promover a criatividade e o impacto
-						positivo nas empresas.</li>
-					<li><strong>Módulo IV:</strong> Destaca as vantagens do business coaching para empresas e líderes.
+					<li><strong>Módulo I:</strong> Introduz os conceitos de aprendizagem direta de idiomas, abordando
+						como os nativos adquirem fluência naturalmente através da imersão e uso contextual do idioma.
 					</li>
-					<li><strong>Módulo V:</strong> Examina diferentes estilos e modelos de coaching para maximizar a
-						eficácia no ambiente de trabalho.</li>
-					<li><strong>Módulo VI:</strong> Descreve práticas e técnicas para coaches de negócios, destacando
-						seu papel e impacto.</li>
-					<li><strong>Módulo VII:</strong> Explica os benefícios do business coaching e como ele pode
-						transformar seu negócio.</li>
-					<li><strong>Módulo VIII:</strong> Foca no desenvolvimento de liderança e na criação de uma visão
-						baseada em valores.</li>
-					<li><strong>Módulo IX:</strong> Ensina técnicas de gestão de tempo para melhorar a produtividade
-						pessoal e profissional.</li>
-					<li><strong>Módulo X:</strong> Explora estratégias eficazes de delegação e como atuar com
-						autoridade.</li>
-					<li><strong>Módulo XI:</strong> Orienta na criação e gestão de objetivos SMART para alcançar metas
-						de forma eficaz.</li>
-					<li><strong>Módulo XII:</strong> Destaca a importância do elogio e como utilizá-lo de maneira eficaz
-						no ambiente de trabalho.</li>
-					<li><strong>Módulo XIII:</strong> Descreve técnicas para fornecer feedback eficaz e construtivo.
+					<li><strong>Módulo II:</strong> Explora o treinamento de fluência natural, focando em como a prática
+						constante e o uso diário da língua ajudam a desenvolver a comunicação espontânea.</li>
+					<li><strong>Módulo III:</strong> Concentra-se na importância do discurso de conversação, abordando
+						como a prática de conversas cotidianas e a comunicação natural ajudam no desenvolvimento das
+						habilidades linguísticas.</li>
+					<li><strong>Módulo IV:</strong> Destaca o aprendizado com exemplos reais e nativos, enfatizando a
+						importância da exposição a falantes nativos para aprimorar a pronúncia e a compreensão auditiva.
 					</li>
-					<li><strong>Módulo XIV:</strong> Introduz uma abordagem renovada da análise SWOT para avaliar
-						negócios e estratégias.</li>
-					<li><strong>Módulo XV:</strong> Explora técnicas para o desenvolvimento pessoal e profissional
-						contínuo.</li>
-					<li><strong>Módulo XVI:</strong> Introduz o conceito da "sexta mala" como uma metáfora para o
-						crescimento pessoal.</li>
-					<li><strong>Módulo XVII:</strong> Examina a dinâmica de equipes e como construir equipes eficazes.
+					<li><strong>Módulo V:</strong> Examina a aprendizagem através da tradução, identificando os desafios
+						que surgem ao aprender um idioma por meio de tradução direta e estratégias para superá-los.</li>
+					<li><strong>Módulo VI:</strong> Explora a memorização de unidades de linguagem, discutindo as
+						limitações de memorizar vocabulário e gramática de forma isolada e sugerindo métodos mais
+						eficazes.</li>
+					<li><strong>Módulo VII:</strong> Foca no impacto da leitura formal e redação, abordando como o foco
+						excessivo em livros didáticos pode limitar a capacidade de comunicação natural e fluente.</li>
+					<li><strong>Módulo VIII:</strong> Introduz a aprendizagem com lições artificiais, analisando como
+						métodos de ensino lentos e estruturados podem interferir na compreensão do idioma falado e na
+						pronúncia.</li>
+					<li><strong>Módulo IX:</strong> Reflete sobre a jornada de aprendizado, ajudando os alunos a
+						identificar os obstáculos que podem estar impedindo seu progresso e a desenvolver estratégias
+						para superá-los.</li>
+					<li><strong>Módulo X:</strong> Descreve o segredo da fluência e confiança na fala, mostrando como
+						aprender a falar fluentemente e naturalmente através de métodos semelhantes aos usados por
+						falantes nativos.</li>
+					<li><strong>Módulo XI:</strong> Explora os problemas dos métodos tradicionais de ensino de idiomas e
+						como abordagens inovadoras podem superar essas limitações para melhorar a eficácia do
+						aprendizado.</li>
+					<li><strong>Módulo XII:</strong> Apresenta um e-book simples e eficaz para aprender inglês
+						rapidamente e desenvolver fluência e confiança na fala, detalhando os princípios e práticas
+						recomendadas.</li>
+					<li><strong>Módulo XIII:</strong> Introduz o coaching de idiomas, explicando o papel do coach na
+						criação de planos de aprendizado personalizados e no apoio ao progresso do aluno.</li>
+					<li><strong>Módulo XIV:</strong> Explora os benefícios do coaching de idiomas e como ele pode ajudar
+						a alcançar a fluência e a confiança necessárias para o sucesso pessoal e profissional.</li>
+					<li><strong>Módulo XV:</strong> Detalha o funcionamento do coaching de idiomas, incluindo sessões de
+						coaching, planejamento e estratégias para manter o foco e o progresso.</li>
+					<li><strong>Módulo XVI:</strong> Examina a função do coach de idiomas, incluindo a identificação de
+						áreas de melhoria, definição de metas realistas e fornecimento de técnicas eficazes de
+						aprendizagem.</li>
+					<li><strong>Módulo XVII:</strong> Orienta na escolha do coach certo para suas necessidades e como um
+						coach eficaz pode ajudar a superar obstáculos e melhorar o desempenho no aprendizado de idiomas.
 					</li>
-					<li><strong>Módulo XVIII:</strong> Fornece uma visão geral das principais ferramentas de coaching e
-						como aplicá-las.</li>
+					<li><strong>Módulo XVIII:</strong> Descreve como melhorar o desempenho no aprendizado de idiomas
+						através da atenção às áreas de dificuldade e intervenção ativa do coach para aprimorar a
+						aprendizagem.</li>
+					<li><strong>Módulo XIX:</strong> Introduz a jornada contínua de aprendizado de idiomas, fornecendo
+						estratégias para manter o progresso e enfrentar novos desafios à medida que surgem.</li>
 				</ul>
+
 			</div>
 			<div class="col-sm-6 col-md-6">
 				<h3>Formato do Curso:</h3>
-				<p>O curso será desenvolvido da seguinte mandeira:</p>
+				<p>O curso será desenvolvido da seguinte maneira:</p>
 				<ul class="bull">
 					<li>Consulta de Coaching complementar de 30 a 60 minutos</li>
 					<li>As sessões duram de 30 a 90 minutos via Telefone/Skype ou Facetime/Presencial/Chat do Facebook
@@ -111,7 +122,6 @@
 					<li>Chamadas ou mensagens breves ocasionais para check-in</li>
 				</ul>
 			</div>
-
 		</div>
 
 		<div class="spacer-50"></div>
@@ -224,13 +234,13 @@
 							<header class="panel-heading">
 								<h3>Parcelado</h3>
 								<div class="price">
-									<sup>R$</sup>29.64<small>12x</small>
+									<sup>R$</sup>82.83<small>6x</small>
 								</div>
 							</header>
 							<!-- BOTÃO DE COMPRA -->
 							<div class="panel-footer">
-								<a href="https://pay.hotmart.com/L12667439I"
-									target="_blank" class="btn btn-primary">COMPRAR AGORA</a>
+								<a href="https://pay.hotmart.com/Q7260028U" target="_blank"
+									class="btn btn-primary">COMPRAR AGORA</a>
 							</div>
 						</div>
 					</div>
@@ -240,13 +250,13 @@
 							<header class="panel-heading">
 								<h3>à Vista</h3>
 								<div class="price">
-									<sup>R$</sup>297.00<small>à vista</small>
+									<sup>R$</sup>497.00<small>à vista</small>
 								</div>
 							</header>
 
 							<div class="panel-footer">
-								<a href="https://pay.hotmart.com/L12667439I"
-									target="_blank" class="btn btn-primary">COMPRAR AGORA</a>
+								<a href="https://pay.hotmart.com/Q7260028U" target="_blank"
+									class="btn btn-primary">COMPRAR AGORA</a>
 							</div>
 						</div>
 					</div>
