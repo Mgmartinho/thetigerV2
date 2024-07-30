@@ -33,32 +33,7 @@
 							DETALHES DE CONTATO
 						</h2>
 						<ul class="list-info">
-							<li><!-- Contato Brasil -->
-								<div class="info-icon">
-									<span class="fa fa-map-marker"></span>
-								</div>
-								<div class="info-text">
-									<img src="<?php echo get_template_directory_uri(); ?>/images/br.webp"
-										alt="Brazil Flag" width="20" height="14"> Rua
-									Bomsucesso, 1118 - Tatuapé, São Paulo, SP, Brazil, 03305-000
-								</div>
-							</li>
-							<li>
-								<div class="info-icon">
-									<span class="fa fa-phone"></span>
-								</div>
-								<div class="info-text">Telefone : (11) 3360-2566 <br>
-									WhatsApp : 01781648101
-								</div>
-							</li>
-							<li>
-								<div class="info-icon">
-									<span class="fa fa-envelope"></span>
-								</div>
-								<div class="info-text">jeanpenelantonie@outlook.com</div>
-							</li>
-							<hr>
-							<br>
+
 							<li><!-- Contato Estados Unidos -->
 								<div class="info-icon">
 									<span class="fa fa-map-marker"></span>
@@ -102,7 +77,7 @@
 								</div>
 								<div class="info-text">Phone : +971585729927 <br>
 								</div>
-								
+
 							</li>
 							<li>
 								<div class="info-icon">
@@ -165,7 +140,195 @@
 
 		</div>
 
+
+		<div class="panel-group panel-faq" id="accordion" role="tablist" aria-multiselectable="true">
+			<div class="spacer-50"></div>
+			<h4 class="title">PERGUNTAS FREQUENTES (FAQs)</h4>
+			<div class="panel panel-default">
+				<div class="panel-heading active" role="tab" id="heading1">
+					<h4 class="panel-title">
+						<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse1"
+							aria-expanded="true" aria-controls="collapse1" class="">
+							Quais tipos de cursos de coaching vocês oferecem?
+						</a>
+					</h4>
+				</div>
+				<div id="collapse1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading1"
+					aria-expanded="true">
+					<div class="panel-body">
+						<p>Oferecemos uma ampla variedade de cursos de coaching, incluindo coaching de relacionamento
+							para casais e solteiros, business coaching, life coaching, desenvolvimento pessoal, coaching
+							motivacional e muito mais.</p>
+					</div>
+				</div>
+			</div>
+			<div class="panel panel-default">
+				<div class="panel-heading" role="tab" id="heading2">
+					<h4 class="panel-title">
+						<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
+							href="#collapse2" aria-expanded="false" aria-controls="collapse2">
+							Os cursos são adequados para iniciantes?
+						</a>
+					</h4>
+				</div>
+				<div id="collapse2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading2"
+					aria-expanded="false" style="height: 0px;">
+					<div class="panel-body">
+						<p>Sim, nossos cursos são projetados para todos os níveis, desde iniciantes até profissionais
+							experientes que desejam aprimorar suas habilidades.</p>
+
+					</div>
+				</div>
+			</div>
+			<div class="panel panel-default">
+				<div class="panel-heading" role="tab" id="heading3">
+					<h4 class="panel-title">
+						<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
+							href="#collapse3" aria-expanded="false" aria-controls="collapse3">
+							Como posso me inscrever em um curso?
+						</a>
+					</h4>
+				</div>
+				<div id="collapse3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3"
+					aria-expanded="false" style="height: 0px;">
+					<div class="panel-body">
+						<p>Você pode se inscrever diretamente através do nosso site, preenchendo o formulário de
+							inscrição e efetuando o pagamento online.</p>
+
+					</div>
+				</div>
+			</div>
+			<div class="panel panel-default">
+				<div class="panel-heading" role="tab" id="heading4">
+					<h4 class="panel-title">
+						<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
+							href="#collapse4" aria-expanded="false" aria-controls="collapse4">
+							Qual é a duração dos cursos?
+						</a>
+					</h4>
+				</div>
+				<div id="collapse4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading4"
+					aria-expanded="false" style="height: 0px;">
+					<div class="panel-body">
+						<p>A duração dos cursos varia dependendo do programa escolhido, mas geralmente duram entre 4 a
+							12 semanas.</p>
+
+					</div>
+				</div>
+			</div>
+			<div class="panel panel-default">
+				<div class="panel-heading" role="tab" id="heading5">
+					<h4 class="panel-title">
+						<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
+							href="#collapse5" aria-expanded="false" aria-controls="collapse5">
+							Os cursos são online ou presenciais?
+						</a>
+					</h4>
+				</div>
+				<div id="collapse5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading5"
+					aria-expanded="false" style="height: 0px;">
+					<div class="panel-body">
+						<p>Atualmente, todos os nossos cursos são oferecidos online para garantir maior flexibilidade e
+							acessibilidade para nossos coachees.</p>
+
+					</div>
+				</div>
+			</div>
+			
+			<div class="panel panel-default">
+				<div class="panel-heading" role="tab" id="heading6">
+					<h4 class="panel-title">
+						<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse6"
+							aria-expanded="true" aria-controls="collapse1" class="">
+							Receberei um certificado após a conclusão do curso?
+						</a>
+					</h4>
+				</div>
+				<div id="collapse6" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading6"
+					aria-expanded="true">
+					<div class="panel-body">
+						<p>Sim, todos os coachees que concluírem com sucesso nossos cursos receberão um certificado de
+							conclusão.</p>
+					</div>
+				</div>
+			</div>
+			<div class="panel panel-default">
+				<div class="panel-heading" role="tab" id="heading7">
+					<h4 class="panel-title">
+						<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse7"
+							aria-expanded="true" aria-controls="collapse7" class="">
+							Quais são os requisitos para participar dos cursos?
+						</a>
+					</h4>
+				</div>
+				<div id="collapse7" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading7"
+					aria-expanded="true">
+					<div class="panel-body">
+						<p>Não há requisitos específicos para participar. Nossos cursos são abertos a todos que desejam
+							aprender e se desenvolver pessoal e profissionalmente.</p>
+					</div>
+				</div>
+			</div>
+			
+			<div class="panel panel-default">
+				<div class="panel-heading" role="tab" id="heading8">
+					<h4 class="panel-title">
+						<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse8"
+							aria-expanded="true" aria-controls="collapse1" class="">
+							Os cursos incluem materiais de estudo?
+						</a>
+					</h4>
+				</div>
+				<div id="collapse8" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading8"
+					aria-expanded="true">
+					<div class="panel-body">
+						<p>Sim, todos os cursos incluem materiais de estudo abrangentes, como apostilas, vídeos,
+							exercícios práticos e mais.</p>
+					</div>
+				</div>
+			</div>
+			<div class="panel panel-default">
+				<div class="panel-heading" role="tab" id="heading9">
+					<h4 class="panel-title">
+						<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse9"
+							aria-expanded="true" aria-controls="collapse7" class="">
+							Posso interagir com o coach durante o curso?
+						</a>
+					</h4>
+				</div>
+				<div id="collapse9" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading9"
+					aria-expanded="true">
+					<div class="panel-body">
+						<p>Sim, oferecemos sessões de Q&A ao vivo e fóruns de discussão onde você pode interagir
+							diretamente com os coaches e outros coachees.</p>
+					</div>
+				</div>
+			</div>
+			<div class="panel panel-default">
+				<div class="panel-heading" role="tab" id="heading10">
+					<h4 class="panel-title">
+						<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse10"
+							aria-expanded="true" aria-controls="collapse10" class="">
+							Vocês oferecem suporte após a conclusão do curso?
+						</a>
+					</h4>
+				</div>
+				<div id="collapse10" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading10"
+					aria-expanded="true">
+					<div class="panel-body">
+						<p>Sim, oferecemos suporte contínuo para nossos ex-coachees, incluindo acesso a recursos
+							adicionais e oportunidades de networking com outros profissionais.</p>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+
 	</div>
-</div>
+</div> <!-- Fechamento bloco de foto e envio de duvidas -->
+
+<!-- inico duvidas frequentes -->
+
 
 <?php get_footer(); ?>

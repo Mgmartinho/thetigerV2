@@ -4224,3 +4224,22 @@ dl.hiw {
 .whatsapp-button:hover {
   background-color: #1EBE54;
 }
+
+
+.section-gray:hover {
+  background-color: rgba(45, 45, 44, 0.877);
+}
+
+.section-yellow:hover {
+  background-color: rgb(245, 245, 0);
+  color:#000000
+}
+
+.section-blue:hover {
+  background-color: rgb(1, 97, 129);
+}
+
+.section-gray, .section-yellow, .section-blue {
+  transition: background-color 0.3s ease;
+  padding: 10px; /* Add some padding for better appearance */
+}

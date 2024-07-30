@@ -115,7 +115,8 @@
 
 				<a id="logo" class="navbar-brand logo-hide" href="/">
 					<img src="<?php echo get_template_directory_uri(); ?>/images/logo3.jpeg"
-						style="height:150px ;width:450px; padding-bottom: 25px; padding-right: 30px" alt="" />
+						style="height:150px ;width:463px; padding-bottom: 25px; padding-right: 0px;     margin-left: -69px;" alt="" />
+				
 				</a>
 
 			</div>

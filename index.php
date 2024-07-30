@@ -147,8 +147,8 @@
 
 <!-- WHY -->
 <div class="section services section-border">
-<img src="<?php echo get_template_directory_uri(); ?>/images/tecnologia1.png"
-style="height: 400px; width: 100%; object-fit: cover;" class="img-responsive" alt="">
+	<img src="<?php echo get_template_directory_uri(); ?>/images/mockup1.png"
+		style="height: 580px; width: 100%; object-fit: none ; margim-top: 10px;" class="img-responsive mt-2" alt="">
 
 	<div class="container">
 		<div class="row">
@@ -551,18 +551,55 @@ style="height: 400px; width: 100%; object-fit: cover;" class="img-responsive" al
 		<div class="container">
 			<div id="owl-testimony">
 
-				<div class="item">
+				<div class="item"><!-- HISTORIA DE SUCESSO 1 -->
 					<div class="row">
 						<div class="col-sm-5 col-md-5">
-							<h2 class="section-heading">
+							<h2 class="section-heading" style="display: flex; align-items: center;">
 								HISTÓRIAS DE SUCESSOS
+								<img src="<?php echo get_template_directory_uri(); ?>/images/iconfogo.png" alt=""
+									style="height: 90px; width: auto; margin-left:90px;" class="img-responsive">
 							</h2>
-							<h2 class="reset-section-heading">NICOLAS CARVALHO</h2>
-							<p>Participei do Curso LIFE COACH</p>
-							<p>"o curso de coaching foi transformador. A equipe
-								experiente e comprometida utilizou uma abordagem colaborativa e personalizada para
-								melhorar minhas habilidades de comunicação e autoconfiança. Recomendo a todos que
-								buscam crescimento pessoal e profissional." </p>
+							<h2 class="reset-section-heading">Transformação Profissional e Pessoal</h2>
+							<h5>de Ana</h5>
+							<p>“Eu sempre sonhei em abrir meu próprio negócio, mas nunca soube por onde começar. Após
+								completar o curso de Business Coaching da Tiger Universal Coaching, desenvolvi um plano
+								de negócios sólido e lancei uma startup de sucesso. Além disso, a confiança que ganhei
+								me ajudou a melhorar meus relacionamentos pessoais.” - Ana </p>
+							<div class="spacer-30"></div>
+							<a class="btn btn-primary">LEIA MAIS</a>
+							<div class="spacer-30"></div>
+						</div>
+
+						<div class="col-sm-7 col-md-7">
+							<div class="about-img">
+								<div class="about-img-top"><!-- BANER ESQUERDO PESSOA -->
+									<img src="<?php echo get_template_directory_uri(); ?>/images/nicolasComentario.png"
+										alt="" style=" height:200px; width:auto" class="">
+								</div>
+								<div class="about-img-bottom"><!-- BANER DIREITO PRINCIPLA -->
+									<img src="<?php echo get_template_directory_uri(); ?>/images/baner1.jpeg" alt=""
+										class="img-responsive">
+								</div>
+							</div>
+						</div>
+						<div class="clearfix"></div>
+						<div class="spacer-70"></div>
+					</div>
+				</div>
+				<div class="item"> <!-- HISTORIA DE SUCESSO 2 -->
+					<div class="row">
+						<div class="col-sm-5 col-md-5">
+							<h2 class="section-heading" style="display: flex; align-items: center;">
+								HISTÓRIAS DE SUCESSOS
+								<img src="<?php echo get_template_directory_uri(); ?>/images/iconfogo.png" alt=""
+									style="height: 90px; width: auto; margin-left:90px;" class="img-responsive">
+							</h2>
+							<h2 class="reset-section-heading">Reconstrução de Relacionamento</h2>
+							<h5> de Paulo e Maria</h5>
+							<p>“Eu e Maria estávamos enfrentando dificuldades em nosso casamento. Depois de
+								participarmos do curso de Relacionamento para Casais, aprendemos a nos comunicar melhor
+								e a resolver conflitos de maneira saudável. Hoje, desfrutamos de um relacionamento mais
+								forte e feliz.” - Paulo</p>
 							<div class="spacer-30"></div>
 							<a class="btn btn-primary">READ MORE STORIES</a>
 							<div class="spacer-30"></div>
@@ -583,50 +620,20 @@ style="height: 400px; width: 100%; object-fit: cover;" class="img-responsive" al
 						<div class="spacer-70"></div>
 					</div>
 				</div>
-				<div class="item">
+				<div class="item"><!-- HISTORIA DE SUCESSO 3 -->
 					<div class="row">
 						<div class="col-sm-5 col-md-5">
-							<h2 class="section-heading">
+							<h2 class="section-heading" style="display: flex; align-items: center;">
 								HISTÓRIAS DE SUCESSOS
+								<img src="<?php echo get_template_directory_uri(); ?>/images/iconfogo.png" alt=""
+									style="height: 90px; width: auto; margin-left:90px;" class="img-responsive">
 							</h2>
-							<h2 class="reset-section-heading">NICOLAS CARVALHO</h2>
-							<p>Participei do Curso LIFE COACH</p>
-							<p>"o curso de coaching foi transformador. A equipe
-								experiente e comprometida utilizou uma abordagem colaborativa e personalizada para
-								melhorar minhas habilidades de comunicação e autoconfiança. Recomendo a todos que
-								buscam crescimento pessoal e profissional." </p>
-							<div class="spacer-30"></div>
-							<a class="btn btn-primary">READ MORE STORIES</a>
-							<div class="spacer-30"></div>
-						</div>
-						<div class="col-sm-7 col-md-7">
-							<div class="about-img">
-								<div class="about-img-top"><!-- BANER ESQUERDO PESSOA -->
-									<img src="<?php echo get_template_directory_uri(); ?>/images/nicolasComentario.png"
-										alt="" style=" height:200px; width:auto" class="">
-								</div>
-								<div class="about-img-bottom"><!-- BANER DIREITO PRINCIPLA -->
-									<img src="<?php echo get_template_directory_uri(); ?>/images/baner1.jpeg" alt=""
-										class="img-responsive">
-								</div>
-							</div>
-						</div>
-						<div class="clearfix"></div>
-						<div class="spacer-70"></div>
-					</div>
-				</div>
-				<div class="item">
-					<div class="row">
-						<div class="col-sm-5 col-md-5">
-							<h2 class="section-heading">
-								HISTÓRIAS DE SUCESSOS
-							</h2>
-							<h2 class="reset-section-heading">NICOLAS CARVALHO</h2>
-							<p>Participei do Curso LIFE COACH</p>
-							<p>"o curso de coaching foi transformador. A equipe
-								experiente e comprometida utilizou uma abordagem colaborativa e personalizada para
-								melhorar minhas habilidades de comunicação e autoconfiança. Recomendo a todos que
-								buscam crescimento pessoal e profissional." </p>
+							<h2 class="reset-section-heading">Superação de Barreiras</h2>
+							<h5>de Pedro</h5>
+							<p>“Sempre lutei com baixa autoestima e falta de motivação. Através do curso de
+								Desenvolvimento Pessoal e Motivacional, descobri minhas verdadeiras paixões e aprendi
+								técnicas para me manter motivado. Agora sou um palestrante motivacional, inspirando
+								outros a superarem suas barreiras.” - Pedro </p>
 							<div class="spacer-30"></div>
 							<a class="btn btn-primary">LEIA MAIS</a>
 							<div class="spacer-30"></div>
@@ -647,6 +654,245 @@ style="height: 400px; width: 100%; object-fit: cover;" class="img-responsive" al
 						<div class="spacer-70"></div>
 					</div>
 				</div>
+				<div class="item"><!-- HISTORIA DE SUCESSO 4 -->
+					<div class="row">
+						<div class="col-sm-5 col-md-5">
+							<h2 class="section-heading" style="display: flex; align-items: center;">
+								HISTÓRIAS DE SUCESSOS
+								<img src="<?php echo get_template_directory_uri(); ?>/images/iconfogo.png" alt=""
+									style="height: 90px; width: auto; margin-left:90px;" class="img-responsive">
+							</h2>
+							<h2 class="reset-section-heading">Equilíbrio de Vida</h2>
+							<h5>de Carla</h5>
+							<p>“Eu estava constantemente estressada e exausta devido às demandas do trabalho e vida
+								pessoal. Participando do curso de Life Coaching, aprendi a gerenciar melhor meu tempo e
+								a estabelecer prioridades. Hoje, tenho um estilo de vida equilibrado e estou mais
+								feliz.” - Carla </p>
+							<div class="spacer-30"></div>
+							<a class="btn btn-primary">LEIA MAIS</a>
+							<div class="spacer-30"></div>
+						</div>
+						<div class="col-sm-7 col-md-7">
+							<div class="about-img">
+								<div class="about-img-top"><!-- BANER ESQUERDO PESSOA -->
+									<img src="<?php echo get_template_directory_uri(); ?>/images/nicolasComentario.png"
+										alt="" style=" height:200px; width:auto" class="">
+								</div>
+								<div class="about-img-bottom"><!-- BANER DIREITO PRINCIPLA -->
+									<img src="<?php echo get_template_directory_uri(); ?>/images/baner1.jpeg" alt=""
+										class="img-responsive">
+								</div>
+							</div>
+						</div>
+						<div class="clearfix"></div>
+						<div class="spacer-70"></div>
+					</div>
+				</div>
+				<div class="item"><!-- HISTORIA DE SUCESSO 5 -->
+					<div class="row">
+						<div class="col-sm-5 col-md-5">
+							<h2 class="section-heading" style="display: flex; align-items: center;">
+								HISTÓRIAS DE SUCESSOS
+								<img src="<?php echo get_template_directory_uri(); ?>/images/iconfogo.png" alt=""
+									style="height: 90px; width: auto; margin-left:90px;" class="img-responsive">
+							</h2>
+							<h2 class="reset-section-heading">Crescimento Empresarial</h2>
+							<h5>de Lucas</h5>
+							<p>“Como empresário, eu tinha dificuldades em expandir meu negócio. Depois de completar o
+								curso de Business Coaching, implementei novas estratégias de marketing e gestão. Como
+								resultado, meu negócio cresceu significativamente e aumentei minha receita em 50%.” -
+								Lucas </p>
+							<div class="spacer-30"></div>
+							<a class="btn btn-primary">LEIA MAIS</a>
+							<div class="spacer-30"></div>
+						</div>
+						<div class="col-sm-7 col-md-7">
+							<div class="about-img">
+								<div class="about-img-top"><!-- BANER ESQUERDO PESSOA -->
+									<img src="<?php echo get_template_directory_uri(); ?>/images/nicolasComentario.png"
+										alt="" style=" height:200px; width:auto" class="">
+								</div>
+								<div class="about-img-bottom"><!-- BANER DIREITO PRINCIPLA -->
+									<img src="<?php echo get_template_directory_uri(); ?>/images/baner1.jpeg" alt=""
+										class="img-responsive">
+								</div>
+							</div>
+						</div>
+						<div class="clearfix"></div>
+						<div class="spacer-70"></div>
+					</div>
+				</div>
+				<div class="item"><!-- HISTORIA DE SUCESSO 6 -->
+					<div class="row">
+						<div class="col-sm-5 col-md-5">
+							<h2 class="section-heading" style="display: flex; align-items: center;">
+								HISTÓRIAS DE SUCESSOS
+								<img src="<?php echo get_template_directory_uri(); ?>/images/iconfogo.png" alt=""
+									style="height: 90px; width: auto; margin-left:90px;" class="img-responsive">
+							</h2>
+							<h2 class="reset-section-heading">Autoconfiança</h2>
+							<h5> de Júlia</h5>
+							<p>“Sempre tive dificuldade em acreditar em mim mesma. Com o apoio do curso de Coaching
+								Motivacional, desenvolvi uma nova perspectiva sobre minhas habilidades e potencial.
+								Hoje, sou uma líder respeitada em minha empresa e inspiro minha equipe a alcançar
+								grandes resultados.” - Júlia</p>
+							<div class="spacer-30"></div>
+							<a class="btn btn-primary">LEIA MAIS</a>
+							<div class="spacer-30"></div>
+						</div>
+						<div class="col-sm-7 col-md-7">
+							<div class="about-img">
+								<div class="about-img-top"><!-- BANER ESQUERDO PESSOA -->
+									<img src="<?php echo get_template_directory_uri(); ?>/images/nicolasComentario.png"
+										alt="" style=" height:200px; width:auto" class="">
+								</div>
+								<div class="about-img-bottom"><!-- BANER DIREITO PRINCIPLA -->
+									<img src="<?php echo get_template_directory_uri(); ?>/images/baner1.jpeg" alt=""
+										class="img-responsive">
+								</div>
+							</div>
+						</div>
+						<div class="clearfix"></div>
+						<div class="spacer-70"></div>
+					</div>
+				</div>
+				<div class="item"><!-- HISTORIA DE SUCESSO 7 -->
+					<div class="row">
+						<div class="col-sm-5 col-md-5">
+							<h2 class="section-heading" style="display: flex; align-items: center;">
+								HISTÓRIAS DE SUCESSOS
+								<img src="<?php echo get_template_directory_uri(); ?>/images/iconfogo.png" alt=""
+									style="height: 90px; width: auto; margin-left:90px;" class="img-responsive">
+							</h2>
+							<h2 class="reset-section-heading">Melhoria de Habilidades Sociais</h2>
+							<h5>de Roberto</h5>
+							<p>“Tinha dificuldades em me relacionar com os colegas de trabalho. Através do curso de
+								Coaching de Relacionamento para Solteiros, aprendi técnicas de comunicação eficazes e
+								habilidades sociais. Agora, sou visto como um colega amigável e colaborativo.” - Roberto
+							</p>
+							<div class="spacer-30"></div>
+							<a class="btn btn-primary">LEIA MAIS</a>
+							<div class="spacer-30"></div>
+						</div>
+						<div class="col-sm-7 col-md-7">
+							<div class="about-img">
+								<div class="about-img-top"><!-- BANER ESQUERDO PESSOA -->
+									<img src="<?php echo get_template_directory_uri(); ?>/images/nicolasComentario.png"
+										alt="" style=" height:200px; width:auto" class="">
+								</div>
+								<div class="about-img-bottom"><!-- BANER DIREITO PRINCIPLA -->
+									<img src="<?php echo get_template_directory_uri(); ?>/images/baner1.jpeg" alt=""
+										class="img-responsive">
+								</div>
+							</div>
+						</div>
+						<div class="clearfix"></div>
+						<div class="spacer-70"></div>
+					</div>
+				</div>
+				<div class="item"><!-- HISTORIA DE SUCESSO 8 -->
+					<div class="row">
+						<div class="col-sm-5 col-md-5">
+							<h2 class="section-heading" style="display: flex; align-items: center;">
+								HISTÓRIAS DE SUCESSOS
+								<img src="<?php echo get_template_directory_uri(); ?>/images/iconfogo.png" alt=""
+									style="height: 90px; width: auto; margin-left:90px;" class="img-responsive">
+							</h2>
+							<h2 class="reset-section-heading">REALIZAÇÃO PESSOAL</h2>
+							<h5> de Fernanda</h5>
+							<p>“Sempre quis viajar pelo mundo, mas nunca tive coragem de deixar meu emprego estável.
+								Participando do curso de Life Coaching, ganhei a confiança necessária para perseguir
+								meus sonhos. Hoje, estou viajando pelo mundo e documentando minhas aventuras em um blog
+								popular.” - Fernanda </p>
+							<div class="spacer-30"></div>
+							<a class="btn btn-primary">LEIA MAIS</a>
+							<div class="spacer-30"></div>
+						</div>
+						<div class="col-sm-7 col-md-7">
+							<div class="about-img">
+								<div class="about-img-top"><!-- BANER ESQUERDO PESSOA -->
+									<img src="<?php echo get_template_directory_uri(); ?>/images/nicolasComentario.png"
+										alt="" style=" height:200px; width:auto" class="">
+								</div>
+								<div class="about-img-bottom"><!-- BANER DIREITO PRINCIPLA -->
+									<img src="<?php echo get_template_directory_uri(); ?>/images/baner1.jpeg" alt=""
+										class="img-responsive">
+								</div>
+							</div>
+						</div>
+						<div class="clearfix"></div>
+						<div class="spacer-70"></div>
+					</div>
+				</div>
+				<div class="item"><!-- HISTORIA DE SUCESSO 9 -->
+					<div class="row">
+						<div class="col-sm-5 col-md-5">
+							<h2 class="section-heading" style="display: flex; align-items: center;">
+								HISTÓRIAS DE SUCESSOS
+								<img src="<?php echo get_template_directory_uri(); ?>/images/iconfogo.png" alt=""
+									style="height: 90px; width: auto; margin-left:90px;" class="img-responsive">
+							</h2>
+							<h2 class="reset-section-heading">REDEFINIÇÃO DE CARREIRA</h2>
+							<h5>de João</h5>
+							<p>“Eu estava insatisfeito com minha carreira e desejava uma mudança. Após concluir o curso
+								de Desenvolvimento Pessoal, decidi seguir minha paixão por culinária. Agora sou um chef
+								de sucesso, com meu próprio restaurante, e estou mais realizado do que nunca.” - João
+							</p>
+							<div class="spacer-30"></div>
+							<a class="btn btn-primary">LEIA MAIS</a>
+							<div class="spacer-30"></div>
+						</div>
+						<div class="col-sm-7 col-md-7">
+							<div class="about-img">
+								<div class="about-img-top"><!-- BANER ESQUERDO PESSOA -->
+									<img src="<?php echo get_template_directory_uri(); ?>/images/nicolasComentario.png"
+										alt="" style=" height:200px; width:auto" class="">
+								</div>
+								<div class="about-img-bottom"><!-- BANER DIREITO PRINCIPLA -->
+									<img src="<?php echo get_template_directory_uri(); ?>/images/baner1.jpeg" alt=""
+										class="img-responsive">
+								</div>
+							</div>
+						</div>
+						<div class="clearfix"></div>
+						<div class="spacer-70"></div>
+					</div>
+				</div>
+				<div class="item"><!-- HISTORIA DE SUCESSO 10 -->
+					<div class="row">
+						<div class="col-sm-5 col-md-5">
+							<h2 class="section-heading" style="display: flex; align-items: center;">
+								HISTÓRIAS DE SUCESSOS
+								<img src="<?php echo get_template_directory_uri(); ?>/images/iconfogo.png" alt=""
+									style="height: 90px; width: auto; margin-left:90px;" class="img-responsive">
+							</h2>
+							<h2 class="reset-section-heading">RECONQUISTA DA AUTONOMIA </h2>
+							<h5>DE MARINA</h5>
+
+							<p>“Eu me sentia presa em um relacionamento tóxico. Com a ajuda do curso de Coaching de
+								Relacionamento para Solteiros, encontrei a força para sair dessa situação e me
+								redescobrir. </p>
+							<div class="spacer-30"></div>
+							<a class="btn btn-primary">LEIA MAIS</a>
+							<div class="spacer-30"></div>
+						</div>
+						<div class="col-sm-7 col-md-7">
+							<div class="about-img">
+								<div class="about-img-top"><!-- BANER ESQUERDO PESSOA -->
+									<img src="<?php echo get_template_directory_uri(); ?>/images/nicolasComentario.png"
+										alt="" style=" height:200px; width:auto" class="">
+								</div>
+								<div class="about-img-bottom"><!-- BANER DIREITO PRINCIPLA -->
+									<img src="<?php echo get_template_directory_uri(); ?>/images/baner1.jpeg" alt=""
+										class="img-responsive">
+								</div>
+							</div>
+						</div>
+						<div class="clearfix"></div>
+						<div class="spacer-70"></div>
+					</div>
+				</div>
+
 
 			</div>
 
