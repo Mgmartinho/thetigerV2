@@ -125,8 +125,8 @@ get_header();
 				<!-- box-6 -->
 				<div class="feature-box-8">
 					<div class="media">
-						<img src="<?php echo get_template_directory_uri(); ?>/images/coachingidiomas.jpeg" alt="rud"
-							class="img-responsive" style="border-radius: 50%; object-fit: cover;">
+						<img src="<?php echo get_template_directory_uri(); ?>/images/idiomasaj.png" alt="rud"
+							class="img-responsive " style="border-radius: 50%; object-fit: cover; height: 250px">
 					</div>
 					<div class="body">
 						<a href="/courses-single-6" class="title">Coaching de Idiomas AJ </a>
@@ -177,38 +177,7 @@ get_header();
 									CONOSCO
 								</h2>
 								<?php echo do_shortcode('[contact-form-7 id="a1a10a8" title="FORMULARIO DE CONTATO"]'); ?>
-								<form action="#" class="form-appointment" id="contactForm" data-toggle="validator"
-									novalidate="true">
-									<div class="row">
-										<div class="col-sm-6 col-md-6">
-											<div class="form-group">
-												<input type="text" class="form-control" id="p_name"
-													placeholder="Nome Completo..." required="">
-												<div class="help-block with-errors"></div>
-											</div>
-										</div>
-										<div class="col-sm-6 col-md-6">
-											<div class="form-group">
-												<input type="email" class="form-control" id="p_email"
-													placeholder="Email..." required="">
-												<div class="help-block with-errors"></div>
-											</div>
-										</div>
-									</div>
-									<div class="form-group">
-										<input type="text" class="form-control" id="p_subject" placeholder="Assunto...">
-										<div class="help-block with-errors"></div>
-									</div>
-									<div class="form-group">
-										<textarea id="p_message" class="form-control" rows="3"
-											placeholder=" menssagem"></textarea>
-										<div class="help-block with-errors"></div>
-									</div>
-									<div class="form-group">
-										<div id="success"></div>
-										<button type="submit" class="btn btn-primary">Enviar Mensagem</button>
-									</div>
-								</form>
+								
 							</div>
 						</div>
 					</div>

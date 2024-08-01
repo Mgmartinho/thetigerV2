@@ -186,39 +186,8 @@ get_header();
 										CONOSCO
 									</h2>
 									<?php echo do_shortcode('[contact-form-7 id="a1a10a8" title="FORMULARIO DE CONTATO"]'); ?>
-									<form action="#" class="form-appointment" id="contactForm" data-toggle="validator"
-										novalidate="true">
-										<div class="row">
-											<div class="col-sm-6 col-md-6">
-												<div class="form-group">
-													<input type="text" class="form-control" id="p_name"
-														placeholder="Nome Completo..." required="">
-													<div class="help-block with-errors"></div>
-												</div>
-											</div>
-											<div class="col-sm-6 col-md-6">
-												<div class="form-group">
-													<input type="email" class="form-control" id="p_email"
-														placeholder="Email..." required="">
-													<div class="help-block with-errors"></div>
-												</div>
-											</div>
-										</div>
-										<div class="form-group">
-											<input type="text" class="form-control" id="p_subject"
-												placeholder="Assunto...">
-											<div class="help-block with-errors"></div>
-										</div>
-										<div class="form-group">
-											<textarea id="p_message" class="form-control" rows="3"
-												placeholder=" menssagem"></textarea>
-											<div class="help-block with-errors"></div>
-										</div>
-										<div class="form-group">
-											<div id="success"></div>
-											<button type="submit" class="btn btn-primary">Enviar Mensagem</button>
-										</div>
-									</form>
+									
+									
 								</div>
 							</div>
 						</div>

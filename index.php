@@ -126,7 +126,7 @@
 						<!-- BOX 4 -->
 						<div class="feature-box-8">
 							<div class="media">
-								<img src="<?php echo get_template_directory_uri(); ?>/images/baner6.jpeg" alt="rud"
+								<img src="<?php echo get_template_directory_uri(); ?>/images/casal.jpeg" alt="rud"
 									style="height:200px; width:600px" class="img-responsive"><!-- IMAGEM BANNER 4 -->
 							</div>
 							<div class="body">
