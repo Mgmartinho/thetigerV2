@@ -12,25 +12,6 @@ get_header();
 <!-- BACK TO TOP SECTION -->
 <a href="#0" class="cd-top cd-is-visible cd-fade-out">Top</a>
 
-
-<!-- BANNER -->
-<div class="section banner-page">
-	<div class="container">
-		<div class="row">
-			<div class="col-sm-12 col-md-12">
-				<div class="title-page"> PODCASTS</div>
-			</div>
-		</div>
-	</div>
-	<div class="breadcrumb-container">
-		<div class="container">
-			<ol class="breadcrumb">
-				<li><a href="/">HOME</a></li>
-				<li class="active">PODCAST</li>
-			</ol>
-		</div>
-	</div>
-</div>
 <div class="section section-border" style="background: linear-gradient(to right, 
 									  #000000, /* preto */
 									  #003366); /* azul escuro */

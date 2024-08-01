@@ -573,7 +573,7 @@
 						<div class="col-sm-7 col-md-7">
 							<div class="about-img">
 								<div class="about-img-top"><!-- BANER ESQUERDO PESSOA -->
-									<img src="<?php echo get_template_directory_uri(); ?>/images/nicolasComentario.png"
+									<img src="<?php echo get_template_directory_uri(); ?>/images/avatarF.jpg"
 										alt="" style=" height:200px; width:auto" class="">
 								</div>
 								<div class="about-img-bottom"><!-- BANER DIREITO PRINCIPLA -->
@@ -607,7 +607,7 @@
 						<div class="col-sm-7 col-md-7">
 							<div class="about-img">
 								<div class="about-img-top"><!-- BANER ESQUERDO PESSOA -->
-									<img src="<?php echo get_template_directory_uri(); ?>/images/nicolasComentario.png"
+									<img src="<?php echo get_template_directory_uri(); ?>/images/avatarC.jpg"
 										alt="" style=" height:200px; width:auto" class="">
 								</div>
 								<div class="about-img-bottom"><!-- BANER DIREITO PRINCIPLA -->
@@ -641,7 +641,7 @@
 						<div class="col-sm-7 col-md-7">
 							<div class="about-img">
 								<div class="about-img-top"><!-- BANER ESQUERDO PESSOA -->
-									<img src="<?php echo get_template_directory_uri(); ?>/images/nicolasComentario.png"
+									<img src="<?php echo get_template_directory_uri(); ?>/images/avatarM.jpg"
 										alt="" style=" height:200px; width:auto" class="">
 								</div>
 								<div class="about-img-bottom"><!-- BANER DIREITO PRINCIPLA -->
@@ -675,7 +675,7 @@
 						<div class="col-sm-7 col-md-7">
 							<div class="about-img">
 								<div class="about-img-top"><!-- BANER ESQUERDO PESSOA -->
-									<img src="<?php echo get_template_directory_uri(); ?>/images/nicolasComentario.png"
+									<img src="<?php echo get_template_directory_uri(); ?>/images/avatarF.jpg"
 										alt="" style=" height:200px; width:auto" class="">
 								</div>
 								<div class="about-img-bottom"><!-- BANER DIREITO PRINCIPLA -->
@@ -709,7 +709,7 @@
 						<div class="col-sm-7 col-md-7">
 							<div class="about-img">
 								<div class="about-img-top"><!-- BANER ESQUERDO PESSOA -->
-									<img src="<?php echo get_template_directory_uri(); ?>/images/nicolasComentario.png"
+									<img src="<?php echo get_template_directory_uri(); ?>/images/avatarM.jpg"
 										alt="" style=" height:200px; width:auto" class="">
 								</div>
 								<div class="about-img-bottom"><!-- BANER DIREITO PRINCIPLA -->
@@ -743,7 +743,7 @@
 						<div class="col-sm-7 col-md-7">
 							<div class="about-img">
 								<div class="about-img-top"><!-- BANER ESQUERDO PESSOA -->
-									<img src="<?php echo get_template_directory_uri(); ?>/images/nicolasComentario.png"
+									<img src="<?php echo get_template_directory_uri(); ?>/images/avatarF.jpg"
 										alt="" style=" height:200px; width:auto" class="">
 								</div>
 								<div class="about-img-bottom"><!-- BANER DIREITO PRINCIPLA -->
@@ -777,7 +777,7 @@
 						<div class="col-sm-7 col-md-7">
 							<div class="about-img">
 								<div class="about-img-top"><!-- BANER ESQUERDO PESSOA -->
-									<img src="<?php echo get_template_directory_uri(); ?>/images/nicolasComentario.png"
+									<img src="<?php echo get_template_directory_uri(); ?>/images/avatarM.jpg"
 										alt="" style=" height:200px; width:auto" class="">
 								</div>
 								<div class="about-img-bottom"><!-- BANER DIREITO PRINCIPLA -->
@@ -811,7 +811,7 @@
 						<div class="col-sm-7 col-md-7">
 							<div class="about-img">
 								<div class="about-img-top"><!-- BANER ESQUERDO PESSOA -->
-									<img src="<?php echo get_template_directory_uri(); ?>/images/nicolasComentario.png"
+									<img src="<?php echo get_template_directory_uri(); ?>/images/avatarF.jpg"
 										alt="" style=" height:200px; width:auto" class="">
 								</div>
 								<div class="about-img-bottom"><!-- BANER DIREITO PRINCIPLA -->
@@ -845,7 +845,7 @@
 						<div class="col-sm-7 col-md-7">
 							<div class="about-img">
 								<div class="about-img-top"><!-- BANER ESQUERDO PESSOA -->
-									<img src="<?php echo get_template_directory_uri(); ?>/images/nicolasComentario.png"
+									<img src="<?php echo get_template_directory_uri(); ?>/images/avatarM.jpg"
 										alt="" style=" height:200px; width:auto" class="">
 								</div>
 								<div class="about-img-bottom"><!-- BANER DIREITO PRINCIPLA -->
@@ -879,7 +879,7 @@
 						<div class="col-sm-7 col-md-7">
 							<div class="about-img">
 								<div class="about-img-top"><!-- BANER ESQUERDO PESSOA -->
-									<img src="<?php echo get_template_directory_uri(); ?>/images/nicolasComentario.png"
+									<img src="<?php echo get_template_directory_uri(); ?>/images/avatarF.jpg"
 										alt="" style=" height:200px; width:auto" class="">
 								</div>
 								<div class="about-img-bottom"><!-- BANER DIREITO PRINCIPLA -->
