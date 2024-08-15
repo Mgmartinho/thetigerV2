@@ -39,8 +39,7 @@
 									<span class="fa fa-map-marker"></span>
 								</div>
 								<div class="info-text">
-									<img src="<?php echo get_template_directory_uri(); ?>/images/us.webp" alt="USA Flag"
-										width="20" height="14"> 1841 North
+									 1841 North
 									Winds Dr Salem, <br>
 									NC 27127
 								</div>
@@ -49,7 +48,8 @@
 								<div class="info-icon">
 									<span class="fa fa-phone"></span>
 								</div>
-								<div class="info-text">Phone : +1336 995 9931 <br>
+								<div class="info-text">Phone : <img src="<?php echo get_template_directory_uri(); ?>/images/us.webp" alt="USA Flag"
+										width="20" height="14"> +1336 995 9931 <br>
 								</div>
 							</li>
 							<li>
@@ -65,8 +65,7 @@
 									<span class="fa fa-map-marker"></span>
 								</div>
 								<div class="info-text">
-									<img src="<?php echo get_template_directory_uri(); ?>/images/ae.webp" alt="UAE Flag"
-										width="20" height="14"> DUBAI (United
+									 DUBAI (United
 									Arab Emirates) <br>
 									Marina Plaza - 112229
 								</div>
@@ -75,7 +74,8 @@
 								<div class="info-icon">
 									<span class="fa fa-phone"></span>
 								</div>
-								<div class="info-text">Phone : +971585729927 <br>
+								<div class="info-text">Phone :<img src="<?php echo get_template_directory_uri(); ?>/images/ae.webp" alt="UAE Flag"
+										width="20" height="14"> +971585729927 <br>
 								</div>
 
 							</li>

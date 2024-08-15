@@ -125,7 +125,7 @@ get_header();
 				<!-- box-6 -->
 				<div class="feature-box-8">
 					<div class="media">
-						<img src="<?php echo get_template_directory_uri(); ?>/images/idiomasaj.png" alt="rud"
+						<img src="<?php echo get_template_directory_uri(); ?>/images/coachingidiomas.jpeg" alt="rud"
 							class="img-responsive " style="border-radius: 50%; object-fit: cover; height: 250px">
 					</div>
 					<div class="body">
