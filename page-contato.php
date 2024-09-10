@@ -26,7 +26,6 @@
 
 			<div class="clearfix"></div>
 			<div class="col-sm-6 col-md-6">
-
 				<div class="row">
 					<div class="col-sm-10 col-md-10">
 						<h2 class="section-heading">
@@ -39,7 +38,7 @@
 									<span class="fa fa-map-marker"></span>
 								</div>
 								<div class="info-text">
-									 1841 North
+									1841 North
 									Winds Dr Salem, <br>
 									NC 27127
 								</div>
@@ -48,7 +47,8 @@
 								<div class="info-icon">
 									<span class="fa fa-phone"></span>
 								</div>
-								<div class="info-text">Phone : <img src="<?php echo get_template_directory_uri(); ?>/images/us.webp" alt="USA Flag"
+								<div class="info-text">Phone : <img
+										src="<?php echo get_template_directory_uri(); ?>/images/us.webp" alt="USA Flag"
 										width="20" height="14"> +1336 995 9931 <br>
 								</div>
 							</li>
@@ -56,7 +56,7 @@
 								<div class="info-icon">
 									<span class="fa fa-envelope"></span>
 								</div>
-								<div class="info-text">jeanpenelantonie@outlook.com</div>
+								<div class="info-text">coachaj@tigeruniversalcoaching.com</div>
 							</li>
 							<hr>
 
@@ -65,7 +65,7 @@
 									<span class="fa fa-map-marker"></span>
 								</div>
 								<div class="info-text">
-									 DUBAI (United
+									DUBAI (United
 									Arab Emirates) <br>
 									Marina Plaza - 112229
 								</div>
@@ -74,7 +74,8 @@
 								<div class="info-icon">
 									<span class="fa fa-phone"></span>
 								</div>
-								<div class="info-text">Phone :<img src="<?php echo get_template_directory_uri(); ?>/images/ae.webp" alt="UAE Flag"
+								<div class="info-text">Phone :<img
+										src="<?php echo get_template_directory_uri(); ?>/images/ae.webp" alt="UAE Flag"
 										width="20" height="14"> +971585729927 <br>
 								</div>
 
@@ -83,7 +84,7 @@
 								<div class="info-icon">
 									<span class="fa fa-envelope"></span>
 								</div>
-								<div class="info-text">jeanpenelantonie@outlook.com</div>
+								<div class="info-text">coachaj@tigeruniversalcoaching.com</div>
 							</li>
 						</ul>
 					</div>
@@ -97,7 +98,6 @@
 						</p>
 					</div>
 				</div>
-
 			</div>
 			<div class="col-sm-6 col-md-6">
 				<div class="content">
@@ -234,7 +234,7 @@
 					</div>
 				</div>
 			</div>
-			
+
 			<div class="panel panel-default">
 				<div class="panel-heading" role="tab" id="heading6">
 					<h4 class="panel-title">
@@ -269,7 +269,7 @@
 					</div>
 				</div>
 			</div>
-			
+
 			<div class="panel panel-default">
 				<div class="panel-heading" role="tab" id="heading8">
 					<h4 class="panel-title">

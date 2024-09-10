@@ -26,12 +26,23 @@
 		<div class="row text-center">
 			<div class="col-sm-4 col-md-4">
 				<div class="footer-item">
-					<img src="<?php echo get_template_directory_uri(); ?>/images/logo1.png" style="height:120px;
+					<img src="<?php echo get_template_directory_uri(); ?>/images/logo3.jpeg" style="height:120px;
 								width:225px" alt="logo bottom" class="logo-bottom">
 					<div class="spacer-30"></div>
-											<br>
-						jeanpenelantoine@outlook.com <br>
-						+971 58 572 9927
+					<br>
+					<div class="info-icon">
+						<span class="fa fa-envelope"></span>
+					</div>
+					<div class="info-text">coachaj@tigeruniversalcoaching.com</div>
+					<div class="info-icon">
+						<span class="fa fa-phone"></span>
+					</div>
+					<div class="info-text">Phone : <img src="<?php echo get_template_directory_uri(); ?>/images/us.webp"
+							alt="USA Flag" width="20" height="14"> +1336 995 9931 <br>
+					</div>
+					<div class="info-text">Phone :<img src="<?php echo get_template_directory_uri(); ?>/images/ae.webp"
+							alt="UAE Flag" width="20" height="14"> +971585729927 <br>
+					</div>
 					</p>
 					<div class="footer-sosmed">
 						<a href="https://www.facebook.com/tigercoachaj" title="">

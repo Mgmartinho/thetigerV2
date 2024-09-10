@@ -601,7 +601,7 @@
 								e a resolver conflitos de maneira saudável. Hoje, desfrutamos de um relacionamento mais
 								forte e feliz.” - Paulo</p>
 							<div class="spacer-30"></div>
-							<a class="btn btn-primary">READ MORE STORIES</a>
+							<a class="btn btn-primary">Leia Mais...</a>
 							<div class="spacer-30"></div>
 						</div>
 						<div class="col-sm-7 col-md-7">

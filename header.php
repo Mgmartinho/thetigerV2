@@ -79,7 +79,7 @@
 						</div>
 						<div class="body-content" style="color:white">
 							<div class="heading">EMAIL </div>
-							jeanpenelantoine@outlook.com
+							coachaj@tigeruniversalcoaching.com
 						</div>
 					</div>
 					<!-- INFO 2 -->
@@ -89,7 +89,23 @@
 						</div>
 						<div class="body-content" style="color:white">
 							<div class="heading" style="color:white">CONTATO</div>
-							+971 58 572 9927
+							<ul>
+								<li>
+									
+									<div class="info-text">Phone : <img
+											src="<?php echo get_template_directory_uri(); ?>/images/us.webp"
+											alt="USA Flag" width="20" height="14"> +1336 995 9931 <br>
+									</div>
+								</li>
+								<li>
+									
+									<div class="info-text">Phone :<img
+											src="<?php echo get_template_directory_uri(); ?>/images/ae.webp"
+											alt="UAE Flag" width="20" height="14"> +971585729927 <br>
+									</div>
+
+								</li>
+							</ul>
 						</div>
 					</div>
 
@@ -115,8 +131,9 @@
 
 				<a id="logo" class="navbar-brand logo-hide" href="/">
 					<img src="<?php echo get_template_directory_uri(); ?>/images/logo3.jpeg"
-						style="height:150px ;width:463px; padding-bottom: 25px; padding-right: 0px;     margin-left: -69px;" alt="" />
-				
+						style="height:150px ;width:463px; padding-bottom: 25px; padding-right: 0px;     margin-left: -69px;"
+						alt="" />
+
 				</a>
 
 			</div>
@@ -168,6 +185,7 @@
 							</a>
 						</li>
 						<li><a href="/contato">CONTATO</a></li>
+						<li><a href="/shop">SHOP</a></li>
 						<li><a href="/login">PORTAL DO COACHEE</a></li>
 					</ul>
 
@@ -180,20 +198,20 @@
 	</div>
 
 	<script>
-    function hideLogoOnSmallScreens() {
-        var logo = document.getElementById('logo');
-        if (window.innerWidth <= 1080) {
-            logo.style.display = 'none';
-        } else {
-            logo.style.display = 'block';
-        }
-    }
+		function hideLogoOnSmallScreens() {
+			var logo = document.getElementById('logo');
+			if (window.innerWidth <= 1080) {
+				logo.style.display = 'none';
+			} else {
+				logo.style.display = 'block';
+			}
+		}
 
-    // Esconder logo ao carregar a página
-    hideLogoOnSmallScreens();
+		// Esconder logo ao carregar a página
+		hideLogoOnSmallScreens();
 
-    // Esconder logo ao redimensionar a tela
-    window.onresize = function() {
-        hideLogoOnSmallScreens();
-    };
-</script>
+		// Esconder logo ao redimensionar a tela
+		window.onresize = function () {
+			hideLogoOnSmallScreens();
+		};
+	</script>

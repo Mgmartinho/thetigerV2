@@ -23,7 +23,7 @@ get_header();
 		<h3 class="text-center" style="font-family: 'Brush Script MT', cursive; font-size: 3.5rem;">
 			Podcast de Coaching de Relacionamento: Conectando Corações e Fortalecendo Laços
 		</h3>
-		<p class="text-center" style="font-family: 'Brush Script MT', cursive; font-size: 1.2rem;">
+		<p class="text-center" style="font-family: 'Brush Script MT', cursive; font-size: 2.2rem;">
 			Bem-vindo ao nosso podcast de Coaching de Relacionamento, um espaço dedicado a transformar vidas
 			amorosas e fortalecer laços afetivos. Aqui, cada episódio é uma jornada profunda de autoconhecimento
 			e crescimento, onde exploramos os desafios e as alegrias dos relacionamentos modernos.
@@ -52,7 +52,7 @@ get_header();
 		<div class="row">
 			<div class="col-sm-12 col-md-8">
 				<h4 class="fa fa-play"> Histórias Inspiradoras:</h4>
-				<p style="font-family: 'Brush Script MT', cursive; font-size: 1.2rem;">
+				<p style="font-family: 'Brush Script MT', cursive; font-size: 2.2rem;">
 					Nossos episódios trazem histórias reais de casais que superaram obstáculos e construíram relações
 					saudáveis e duradouras. Essas narrativas são fontes de inspiração e aprendizado, mostrando que é
 					possível transformar dificuldades em oportunidades de crescimento.
@@ -75,7 +75,7 @@ get_header();
 			</div>
 			<div class="col-sm-12 col-md-8 m">
 				<h4 class="fa fa-lightbulb"> Dicas Práticas e Estratégias:</h4>
-				<p style="font-family: 'Brush Script MT', cursive; font-size: 1.2rem;">
+				<p style="font-family: 'Brush Script MT', cursive; font-size: 2.2rem;">
 					Com base em anos de experiência em coaching, compartilhamos dicas práticas e estratégias comprovadas
 					para melhorar a comunicação, resolver conflitos e fortalecer a conexão emocional com seu parceiro.
 					Cada
@@ -89,7 +89,7 @@ get_header();
 		<div class="row text-center mt-5 " style="margim-top:50px" !important>
 			<div class="col-sm-12 col-md-12">
 				<h4 class="fa fa-microphone "> Entrevistas com Especialistas:</h4>
-				<p style="font-family: 'Brush Script MT', cursive; font-size: 1.2rem;">
+				<p style="font-family: 'Brush Script MT', cursive; font-size: 2.2rem;">
 					Conversamos com psicólogos, terapeutas e outros profissionais de renome no campo dos
 					relacionamentos.
 					Essas entrevistas oferecem insights valiosos e perspectivas variadas sobre como cultivar um
@@ -101,7 +101,7 @@ get_header();
 
 		<h4 class="fa fa-question-circle"> Perguntas e Respostas:</h4>
 
-		<p style="font-family: 'Brush Script MT', cursive; font-size: 1.2rem;">
+		<p style="font-family: 'Brush Script MT', cursive; font-size: 2.2rem;">
 			Respondemos às perguntas dos nossos ouvintes, abordando preocupações e desafios comuns em
 			relacionamentos. Essa interação direta permite que você receba conselhos personalizados e se sinta
 			parte de uma comunidade de apoio.
@@ -115,7 +115,7 @@ get_header();
 		<div class="row">
 			<div class="col-sm-12 col-md-12">
 				<h4 class="section-gray">Quem Somos</h4>
-				<p class="section-gray" style="font-family: 'Brush Script MT', cursive; font-size: 1.2rem;">
+				<p class="section-gray" style="font-family: 'Brush Script MT', cursive; font-size: 2.2rem;">
 					Eu sou Anthony Jean, mais conhecido como Coach AJ, o fundador da Tiger Universal Coaching e
 					Certificação. Com uma vasta experiência em coaching de relacionamentos, dediquei minha carreira a
 					ajudar casais e indivíduos a encontrar e manter o amor verdadeiro. Acreditamos que todo
@@ -123,7 +123,7 @@ get_header();
 				</p>
 				<hr>
 				<h4 class="section-yellow">Por Que Ouvir Nosso Podcast?</h4>
-				<p class="section-yellow" style="font-family: 'Brush Script MT', cursive; font-size: 1.2rem;">
+				<p class="section-yellow" style="font-family: 'Brush Script MT', cursive; font-size: 2.2rem;">
 					Nosso podcast é mais do que apenas um programa de rádio; é uma comunidade de indivíduos dedicados a
 					construir relacionamentos significativos e duradouros. Ao ouvir nossos episódios, você não apenas
 					adquire conhecimento, mas também faz parte de uma jornada coletiva em direção a relacionamentos mais
@@ -131,7 +131,7 @@ get_header();
 				</p>
 				<hr>
 				<h4 class="section-blue">Junte-se a Nós</h4>
-				<p class="section-blue" style="font-family: 'Brush Script MT', cursive; font-size: 1.2rem;">
+				<p class="section-blue" style="font-family: 'Brush Script MT', cursive; font-size: 2.2rem;">
 					Se você está em um relacionamento e quer fortalecê-lo, ou se está solteiro e buscando compreender
 					melhor o amor e os relacionamentos, nosso podcast é para você. Inscreva-se e acompanhe nossos
 					episódios semanais para transformar sua vida amorosa e se conectar de maneira mais profunda e
