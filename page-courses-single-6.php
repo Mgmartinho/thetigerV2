@@ -234,12 +234,12 @@
 							<header class="panel-heading">
 								<h3>Parcelado</h3>
 								<div class="price">
-									<sup>R$</sup>82.83<small>6x</small>
+									<sup>R$</sup>29.64<small>12x</small>
 								</div>
 							</header>
 							<!-- BOTÃO DE COMPRA -->
 							<div class="panel-footer">
-								<a href="https://pay.hotmart.com/Q7260028U" target="_blank"
+								<a href="https://pay.hotmart.com/L12667439I" target="_blank"
 									class="btn btn-primary">COMPRAR AGORA</a>
 							</div>
 						</div>
@@ -250,12 +250,12 @@
 							<header class="panel-heading">
 								<h3>à Vista</h3>
 								<div class="price">
-									<sup>R$</sup>497.00<small>à vista</small>
+									<sup>R$</sup>297.00<small>à vista</small>
 								</div>
 							</header>
 
 							<div class="panel-footer">
-								<a href="https://pay.hotmart.com/Q7260028U" target="_blank"
+								<a href="https://pay.hotmart.com/L12667439I" target="_blank"
 									class="btn btn-primary">COMPRAR AGORA</a>
 							</div>
 						</div>

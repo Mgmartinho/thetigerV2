@@ -52,10 +52,10 @@ get_header();
 							alt="rud" class="img-responsive h-25 w-auto">
 							</div>
 							<div class="body">
-								<a href="https://pay.hotmart.com/Q7260028U"
+								<a href="https://pay.hotmart.com/L12667439I"
 									class="title">Coahching de Idiomas AJ</a>
 								<a class="btn btn-warning"
-									href="https://pay.hotmart.com/Q7260028U">
+									href="https://pay.hotmart.com/L12667439I">
 									Comprar Agora
 								</a>
 							</div>
